@@ -81,7 +81,7 @@ $lang = array(
     ),
     "fr" => "Français",
     "en" => "Anglais",
-    "ask_1" => "Pour tous vos besoins",
+    "ask_1" => "Satisfait vos besoins est notre priorité",
     "ask_2" => "Contacter-nous",
     "pop" => "Nous Contacter",
     "pop1" => "Contact",
@@ -102,24 +102,34 @@ $lang = array(
         "f6" => "En savoir plus",
         "f7" => "Contactez-nous",
         "floating" => "Nous Contacter",
-        "intro" => "La locomotive",
-        "intro1" => "vous transporte vers le succès",
+        "intro" => "",
+        "intro1" => "Nos Domaines D'activités",
         "ct" => array(
             "s1" => array(
-                "title" => "Cloud Computing",
-                "p" => "Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins.",
+                "title" => "IT",
+                "p" => "Web Master/IOT",
+                "p1" => "Transformation Digitale",
+                "p2" => "Cloud Computing/Saas",
+                "p3" => "Reseautage D'entreprise",
+                "p4" => "Cyber securité/IA",
+                
             ), 
             "s2" => array(
-                "title" => "Cyber Sécurité",
-                "p" => "Nos solutions Intelligentes vous aident à minimiser les perturbations et maintenir la continuité de vos activités dans toute votre organisation.",
+                "title" => "Télécom",
+                "p" => "Think",
+                "p1" => "Build",
+                "p2" => "Operation",
+                "p3" => "Support",
             ),
             "s3" => array(
-                "title" => "Transformation digitale",
-                "p" => "La Locomotive met en place des plateformes digitales permettant à ses clients d'être plus opérationnels sur le marché.",
+                "title" => "Formation",
+                "p" => "",
             ),
             "s4" => array(
-                "title" => "Business Coach",
-                "p" => "Bénéficiez d'un accompagnement personnalisé qui vous aidera à mettre en oeuvre vos projets de transformation et les rendre pérennes.",
+                "title" => "Services Divers",
+                "p" => "Logistique",
+                "p1" => "BTP",
+               
             ),
             "plus" => "Voir Plus"
         ),

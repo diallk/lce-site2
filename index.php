@@ -152,6 +152,19 @@
                                 <p>
                                 <?php echo $lang['home']['ct']['s1']['p']; ?>
                                 </p>
+                                <p>
+                                <?php echo $lang['home']['ct']['s1']['p1']; ?>
+                                </p>
+                                <p>
+                                <?php echo $lang['home']['ct']['s1']['p2']; ?>
+                                </p>
+                                  <?php echo $lang['home']['ct']['s1']['p3']; ?>
+                                </p>
+                                </p>
+                                  <?php echo $lang['home']['ct']['s1']['p4']; ?>
+                                </p>
+                               
+                                
                               </div>
                             </div>
                           </div>
@@ -168,7 +181,17 @@
                                 <h2><?php echo $lang['home']['ct']['s2']['title']; ?></h2>
                                 <br>
                                 <p>
-                                    <?php echo $lang['home']['ct']['s2']['p']; ?>                                </p>
+                                    <?php echo $lang['home']['ct']['s2']['p']; ?> 
+                                </p>
+                                <p>
+                                    <?php echo $lang['home']['ct']['s2']['p1']; ?> 
+                                </p>
+                                <p>
+                                    <?php echo $lang['home']['ct']['s2']['p2']; ?> 
+                                </p>
+                                <p>
+                                    <?php echo $lang['home']['ct']['s2']['p3']; ?> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -203,6 +226,9 @@
                                 <br>
                                 <p>
                                     <?php echo $lang['home']['ct']['s4']['p']; ?>                                
+                                </p>
+                                <p>
+                                    <?php echo $lang['home']['ct']['s4']['p1']; ?>                                
                                 </p>
                               </div>
                             </div>
