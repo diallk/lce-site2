@@ -42,7 +42,7 @@
                           <a class="nav-link text" href="index.php"><?php echo $lang['header']['h1']; ?> <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <?php echo $lang['header']['h2']; ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -109,12 +109,12 @@
       <br>  
       
 
-    <!-- conception -->
-    <div class="container-fluid ">
+      <!-- conception -->
+      <div class="container-fluid ">
       <div class="row">
-        <div class="col-md-6  info" style="padding-left: 3rem;">
-           <div>
-              
+       
+           <img src="assets/img/site.jpg" width="70%" alt="service2">
+     
           </div>
           
         </div>
@@ -122,9 +122,8 @@
           <br><br>
             <img src="assets/img/telecom-0.png" width="70%" alt="">
         </div>-->
-      </div>
+   
     </div>
-    <!-- end conception -->
 
     <br>
     <br>

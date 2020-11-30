@@ -112,9 +112,9 @@
     <!-- conception -->
     <div class="container-fluid ">
       <div class="row">
-        <div class="col-md-6  info" style="padding-left: 3rem;">
-           <div>
-              
+       
+           <img src="assets/img/site.jpg" width="70%" alt="service2">
+     
           </div>
           
         </div>
@@ -122,7 +122,7 @@
           <br><br>
             <img src="assets/img/telecom-0.png" width="70%" alt="">
         </div>-->
-      </div>
+   
     </div>
     <!-- end conception -->
 
@@ -155,7 +155,7 @@
     <!-- support -->
     <div class="container-fluid ">
       <div class="row">
-       
+         
       </div>
     </div>
     <!-- end support -->
