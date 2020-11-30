@@ -46,9 +46,9 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="service-it.php">IT</a>
                               <a class="dropdown-item" href="service-telecom.php">Télécom</a>
-                              <a class="dropdown-item" href="#">Logistique</a>
-                              <a class="dropdown-item" href="#">BTP</a>
-                              <a class="dropdown-item" href="#">Formations</a>
+                              <a class="dropdown-item" href="service-btp.php">Logistique</a>
+                              <a class="dropdown-item" href="service-logistique.php">BTP</a>
+                              <a class="dropdown-item" href="service-formation.php">Formations</a>
 
                               
                           </li>

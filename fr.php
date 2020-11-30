@@ -223,7 +223,7 @@ $lang = array(
                 "content3" => 'Notre équipe d\'experts se charge de la gestion de vos sites et pages internet; de sa conception à sa maintenance, La Locomotive vous accompagne et vous conseille. Contactez-nous <a href="clients_project.php">ici</a>.',
             ),
             "digit_trans" => array(
-                "title" => "TRANSFORMATION  DIGITALE",
+                "title" => "transformation digitale",
                 "subtitle" => "Tout en ligne, automatisation et intelligence",
                 "content1" => " La transformation digitale, parfois appelée transformation numérique,
                     désigne le processus qui consiste, pour une organisation, à intégrer pleinement

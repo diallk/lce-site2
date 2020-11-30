@@ -50,14 +50,14 @@ include_once "./config/config.php" ?>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                               <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
-                              <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['3']; ?></a>
-                              <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['4']; ?></a>
-                              <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['5']; ?></a>
+                              <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
+                              <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
+                              <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
 
                               
                           </li>
                         <li class="nav-item">
-                          <a class="nav-link text text-dark" href="#"><?php echo $lang['header']['h3']; ?></a>
+                          <a class="nav-link text text-dark" href="boutique.php"><?php echo $lang['header']['h3']; ?></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -262,6 +262,12 @@ include_once "./config/config.php" ?>
               <?php echo $lang['solutions']['it']['intelligence']['s3']['details']; ?>
             </p>
           </div>
+          <div class="col-md-6 info lce-design-card " id="et" >  <br/><br/>          
+            <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s4']['title']; ?></h3>
+            <p id="explains">
+              <?php echo $lang['solutions']['it']['intelligence']['s4']['details']; ?>
+            </p>
+          </div>
           <!--<div class="col-md-6 info info lce-design-card">
             <h3>Solution pour call center</h3>
             <p>
@@ -269,29 +275,91 @@ include_once "./config/config.php" ?>
             </p>
           </div>-->
         </div>
+
+        
+
       </div>
+
+      <div class="container-fluid " style="margin: 3rem;">
+      <div class="row" style="padding: 3rem;">
+          <div class="col-md-5  info">
+              <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
+                  <h2 class="text-o"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2>
+                  <p id="explains"><?php echo $lang['solutions']['it']['webmaster']['subtitle']; ?></p> 
+                  <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['webmaster']['content1']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['webmaster']['content2']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['webmaster']['content3']; ?></li>
+                    </ul>
+                  </p>               
+              </div>
+          </div>
+          <div class="col-md-7 from-right " align="center">
+            <img src="assets/img/web.jpg" width="70%" alt="service2">
+          </div>
+        </div>
+
+        <div class="row" style="padding: 3rem;">
+          <div class="col-md-7 from-left" align="center">
+              <img src="assets/img/web1.png" width="60%"  alt="">
+          </div>
+          <div class="col-md-5 info">
+              <div class="lce-service-0" style="padding-left:5rem;padding-right:3rem;border-left:solid 1px;">
+                <h2 class="text-o"><?php echo $lang['solutions']['it']['saas']['title']; ?></h2>
+                <p id="explains"><?php echo $lang['solutions']['it']['saas']['subtitle']; ?></p>  
+                
+                <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['saas']['content1']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['saas']['content2']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['saas']['content3']; ?></li>
+                    </ul>
+                  </p>  
+              </div>
+          </div>
+        </div>
+        <div class="row" style="padding: 3rem;">
+          <div class="col-md-5  info">
+              <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
+                  <h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2>
+                  <p id="explains"><?php echo $lang['solutions']['it']['digit_trans']['subtitle']; ?></p> 
+                  <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['digit_trans']['content1']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['digit_trans']['content2']; ?></li>
+                      </ul>
+                  </p>               
+              </div>
+          </div>
+          <div class="col-md-7 from-right " align="center">
+            <img src="assets/img/ia-5.png" width="50%" alt="service2">
+          </div>
+        </div>
+      </div>
+     
       <!-- end of IA-->
 
 
-      <!-- banner carriere 
-      <div class="container-fluid" style="margin-top:9rem;background-image:url(' img/147.jpg');background-size:cover;height:300px">
-        <div class="container " style="padding: 5rem;transform:translateY(18%)">
-          <div class="row" style="" align="center">
-            <div class="col-md-7">
-              <h4>Vous êtes intéressés par notre vision, nos objectifs? Rejoingnez-nous maintenant ! </h4>
-            </div>
-            <div class="col-md-5 ">
-              <button class="btn  btn-lg btn-warning" id="btn-modif" style="margin-top: 0.5rem;">Rejoignez-nous</button>
-            </div>
-          </div>
-        </div>
-    </div>
-     end of banner carriere -->
+      <!-- banner carriere--> 
+     
+
+
+
+
+
+
+
+
+
+
      
     <br>
     <br>
     <br>
     <br>
+
+   
 
     <!-- sécurité 
     <div class="container-fluid bord">
@@ -369,6 +437,8 @@ include_once "./config/config.php" ?>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <?php echo $lang['solutions']['it']['internetOF']['s3']['details']; ?>            
           </div>
+
+          
           </div>
         </div>
       </div>
@@ -379,27 +449,9 @@ include_once "./config/config.php" ?>
     <br>
   <!-- footer -->
   <footer >
-    
-                <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">               
-                    <div class="card-body">
-                        <div class="row">
-                        <div class="col-sm-2">
-                                <h2><?php echo $lang['footer']['intro']; ?></h2>
+            <div class="card-footer text-dark text-center">
+                   <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
                                 
-                                <!--<div class="row">
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
-                                    </div>
-                                </div>-->
                                 <div class="row ">
                                     <div class="col-md-3 ">
                                         <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
@@ -413,7 +465,15 @@ include_once "./config/config.php" ?>
                                     <div class="col-md-3 ">
                                         <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
                                     </div>
-                                </div>
+                                </div><br/>
+                    </div>
+      
+                <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">
+                               
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                               
                             </div>
                             <div class="col-sm-2">
                               <h4><?php echo $lang['footer']['1']; ?></h4>

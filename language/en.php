@@ -191,7 +191,12 @@ $lang = array(
                 "s3" => array(
                     "title" => "Correlation",
                     "details" => "In the time of big data, correlation analysis has gained much attention for its high efficiency in analyzing the relationships inherent in things, and has been applied effectively to many areas, including the recommender system, analysis commercial, public administration and medical diagnostics. La Locomotive supports its partners with a solution that allows them to get straight to the point."
-                ),  
+                ), 
+                
+                "s4" => array(
+                    "title" => "Solution for call center",
+                    "details" => "La Locomotive offers call center solutions to increase customer loyalty."
+                ),   
             ),
             "internetOF" => array(
                 "title" => "INTERNET OF THINGS",

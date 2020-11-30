@@ -48,14 +48,14 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                               <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
-                              <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['3']; ?></a>
-                              <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['4']; ?></a>
-                              <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['5']; ?></a>
+                              <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
+                              <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
+                              <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
 
                               
                           </li>
                         <li class="nav-item">
-                          <a class="nav-link text text-dark" href="#"><?php echo $lang['header']['h3']; ?></a>
+                          <a class="nav-link text text-dark" href="boutique.php"><?php echo $lang['header']['h3']; ?></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -155,26 +155,9 @@
       
   <!-- footer -->
   <footer >
-                <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">               
-                    <div class="card-body">
-                        <div class="row">
-                        <div class="col-sm-2">
-                                <h2><?php echo $lang['footer']['intro']; ?></h2>
+            <div class="card-footer text-dark text-center">
+                   <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
                                 
-                                <!--<div class="row">
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
-                                    </div>
-                                </div>-->
                                 <div class="row ">
                                     <div class="col-md-3 ">
                                         <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
@@ -188,7 +171,15 @@
                                     <div class="col-md-3 ">
                                         <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
                                     </div>
-                                </div>
+                                </div><br/>
+                    </div>
+      
+                <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">
+                               
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-2">
+                               
                             </div>
                             <div class="col-sm-2">
                               <h4><?php echo $lang['footer']['1']; ?></h4>
@@ -250,6 +241,7 @@
                     </div>
                   </div>
             </footer> 
+  
  
     
     

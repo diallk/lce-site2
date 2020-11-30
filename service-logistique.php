@@ -46,7 +46,7 @@
                             <?php echo $lang['header']['h2']; ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
+                            <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                               <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
                               <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
                               <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
@@ -89,18 +89,7 @@
             </div>
         </div>
         <div class="row" align="center">
-            <div class="col-md-4 ">
-
-            </div>
-            <div class="col-md-4" style="margin-top: 1.5rem;">
-                <div class="" align="center">
-                    <h1 style="font-size:75px"><?php echo $lang['solutions']['telecoms']['p0']['0']; ?></h1>
-                    <p ><?php echo $lang['solutions']['telecoms']['p0']['1']; ?></p>
-                </div>
-            </div>
-            <div class="col-md-4 ">
-
-            </div>
+            
             
             
             <!--<div class="col-md-4 ">
@@ -124,24 +113,15 @@
     <div class="container-fluid ">
       <div class="row">
         <div class="col-md-6  info" style="padding-left: 3rem;">
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p1']['title']; ?></h3> 
-          <div>
-              <h4>
-                <?php echo $lang['solutions']['telecoms']['p1']['subtitle']; ?>              
-              </h4>
-              <p>
-                <?php echo $lang['solutions']['telecoms']['p1']['content1']; ?>              
-              </p>
-              <p>
-                <?php echo $lang['solutions']['telecoms']['p1']['content2']; ?>              
-              </p>
+           <div>
+              
           </div>
           
         </div>
-        <div class="col-md-6 info from-right" align="center">
+       <!-- <div class="col-md-6 info from-right" align="center">
           <br><br>
             <img src="assets/img/telecom-0.png" width="70%" alt="">
-        </div>
+        </div>-->
       </div>
     </div>
     <!-- end conception -->
@@ -154,20 +134,7 @@
     <!-- realisation -->
     <div class="container-fluid ">
       <div class="row">
-        <div class="col-md-6  info from-left " align="center">
-            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
-        </div>
-        <div class="col-md-6  info" style="padding-right: 3rem;">
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p2']['title']; ?></h3>
-          <div >
-              <h4><?php echo $lang['solutions']['telecoms']['p2']['subtitle']; ?></h4>
-              <p>
-                <?php echo $lang['solutions']['telecoms']['p2']['content1']; ?>
-                <?php echo $lang['solutions']['telecoms']['p2']['content2']; ?>
-
-              </p>
-          </div>
-        </div>
+        
       </div>
     </div>
     <!-- end realisation -->
@@ -178,25 +145,7 @@
     <br>  
     
 
-    <!-- operate -->
-    <div class="container-fluid ">
-    <div class="row">
-      <div class="col-md-6  info" style="padding-left: 3rem;">
-        <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p3']['title']; ?></h3>
-        <div>
-          <h4><?php echo $lang['solutions']['telecoms']['p3']['subtitle']; ?></h4>
-          <p>
-            <?php echo $lang['solutions']['telecoms']['p3']['content1']; ?>          
-          </p>
-        </div>
-      </div>
-      <div class="col-md-6  info from-right " align="center">
-        <br><br>
-          <img src="assets/img/telecom-3.png" width="100%" alt="">
-      </div>
-    </div>
-    </div>
-    <!-- end operate -->
+    
 
     <br>
     <br>
@@ -206,26 +155,13 @@
     <!-- support -->
     <div class="container-fluid ">
       <div class="row">
-        <div class="col-md-6  info from-left" align="center">
-          <img src="assets/img/support.png" width="80%" alt="">
-        </div>
-        <div class="col-md-6  info" style="padding-right: 3rem;">
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p4']['title']; ?></h3>
-          <div>
-            <h4><?php echo $lang['solutions']['telecoms']['p4']['subtitle']; ?></h4>
-            <p>
-            <?php echo $lang['solutions']['telecoms']['p4']['content1']; ?>            </p>
-          </div>
-        </div>
+       
       </div>
     </div>
     <!-- end support -->
-
-    <footer >
-            <div class="card-footer text-dark text-center">
-                   <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
-                                
-                                <div class="row ">
+    <div class="card-footer text-dark text-center">
+    <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
+    <div class="row ">
                                     <div class="col-md-3 ">
                                         <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
                                     </div>
@@ -238,8 +174,9 @@
                                     <div class="col-md-3 ">
                                         <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
                                     </div>
-                                </div><br/>
+                                </div>
                     </div>
+                  
       
                 <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">
                                
@@ -308,7 +245,7 @@
                     </div>
                   </div>
             </footer> 
- 
+  
  
     
     

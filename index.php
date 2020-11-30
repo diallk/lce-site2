@@ -52,16 +52,16 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                   <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                                   <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
-                                  <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['3']; ?></a>
-                                  <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['4']; ?></a>
-                                  <a class="dropdown-item" href="#"><?php echo $lang['header']['h2_']['5']; ?></a>
+                                  <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
+                                  <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
+                                  <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
     
                                   <!--<div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="#">Something else here</a>
                                 </div>-->
                               </li>
                             <li class="nav-item">
-                              <a class="nav-link text" href="#"><?php echo $lang['header']['h3']; ?></a>
+                              <a class="nav-link text" href="boutique.php"><?php echo $lang['header']['h3']; ?></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
