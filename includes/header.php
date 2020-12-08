@@ -74,9 +74,7 @@
                                   <a class="dropdown-item" href="pages/join-team.php"><?php echo $lang['header']['h4_']['2']; ?></a>
                                   <a class="dropdown-item" href="pages/partners.php"><?php echo $lang['header']['h4_']['3']; ?></a>
 
-                                  <a class="dropdown-item" href="#"><?php echo $lang['header']['h4_']['4']; ?></a>
-                                  <a class="dropdown-item" href="pages/contact.php"  id="cbtn"><?php echo $lang['header']['h4_']['5']; ?></a>
-
+                                  
                                   <!--<div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="#">Something else here</a>
                                 </div>-->

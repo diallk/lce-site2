@@ -53,9 +53,7 @@
                                   <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                                   <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
                                   <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
-                                  <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
-                                  <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
-    
+                                 
                                   <!--<div class="dropdown-divider"></div>
                                   <a class="dropdown-item" href="#">Something else here</a>
                                 </div>-->
@@ -126,8 +124,8 @@
             <!-- end hc -->
             <br>
             <!-- little word -->
-            <div class="container" style="margin-top: 6rem;" align="center">
-                <div class="" style="width: 50%;">
+            <div class="container " style="margin-top: 6rem;" align="center"  style="width: 50%;box-sizing: content-box;width: 100%;">
+                <div class="">
                     <h1>
                         <span style="color: #fd7e14;"><?php echo $lang['home']['intro']; ?></span> <?php echo $lang['home']['intro1']; ?>
                     </h1>
@@ -136,9 +134,9 @@
             <?php include "includes/pop.php"; ?>
     <br><br>
             <!-- skills content -->
-            <div class="container desc">
-                <div class="row">
-                    <div class="col-md-3 ">
+            <div class="container desc ">
+                <div class="row" >
+                    <div class="col-md-4 ">
                         <div class="flip-box from-left">
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
@@ -169,7 +167,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md-3 ">
+                    <div class="col-md-4 ">
                         <div class="flip-box from-left">
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
@@ -196,7 +194,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md-3 ">
+                    <div class="col-md-4 ">
                         <div class="flip-box from-right">
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
@@ -213,7 +211,7 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md-3 ">
+                   <!-- <div class="col-md-3 ">
                         <div class="flip-box from-right">
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
@@ -233,7 +231,7 @@
                               </div>
                             </div>
                           </div>
-                    </div>    
+                    </div> -->   
                 </div>
                 <br>
                 <div class="row desc" style="justify-content: center;">
@@ -243,7 +241,7 @@
             </div>
             <!-- end sc-->
     
-            <br><br><br>
+           
             <!-- little word -->
             <div class="container" style="margin-top: 6rem;" align="center">
                 <div class="" style="width: 50%;">
@@ -257,7 +255,7 @@
             <!-- content client -->
             <div class="container-fluid  desc1">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="container top" style="margin-left: 2.5rem;">
                             <div class="row from-left">
                                 <h2><?php echo $lang['home']['c_1']; ?></h2>                            
@@ -265,22 +263,27 @@
                             <div class="row from-left" style="margin-top: 1rem;margin-left:1rem" id="explain">
                                 <ul>
                                     <li><?php echo $lang['home']['c_2']; ?></li>
-                                    <li><?php echo $lang['home']['c_3']; ?></li>
+                                    
                                 </ul>                            
                             </div>
                         </div>
+
+
+
+
+
                     </div>
-                    <div class="col-md-7 from-right">
-                        <img src="assets/img/5222.jpg" width="100%" alt="">
+                    <div class="col-md-6 from-right">
+                        <img src="assets/img/5222.jpg" width="80%" alt="">
                     </div>
                 </div>
             </div><br>
             <div class="container-fluid  desc1">
                 <div class="row">
-                    <div class="col-md-7 from-left">
-                        <img src="assets/img/4376.png" width="100%" alt="">
+                    <div class="col-md-6 from-left">
+                        <img src="assets/img/4376.png" width="80%" alt="">
                     </div>
-                    <div class="col-md-5"> <br><br>
+                    <div class="col-md-6"> <br><br>
                         <div class="container top" style="margin-left: 0rem;">
                             <div class="row from-right">
                                 <h2><?php echo $lang['home']['c_4']; ?></h2>                            
@@ -288,18 +291,18 @@
                             <div class="row from-right" style="margin-top: 1rem;margin-left:1rem" id="explain">
                                 <ul>
                                     <li><?php echo $lang['home']['c_5']; ?></li>
-                                    <li><?php echo $lang['home']['c_6']; ?></li>
+                                    <!--<li><?php echo $lang['home']['c_6']; ?></li>
                                     <li><?php echo $lang['home']['c_7']; ?></li>
-                                    <li><?php echo $lang['home']['c_8']; ?></li>
+                                    <li><?php echo $lang['home']['c_8']; ?></li>-->
                                 </ul>                            
                             </div>
                         </div>                    
                     </div>
                 </div>
             </div> <br>
-            <div class="container-fluid  desc1">
+            <div class="container-fluid desc1">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="container top" style="margin-left: 2.5rem;"><br><br>
                             <div class="row from-left">
                                 <h2><?php echo $lang['home']['c_9']; ?></h2>                            
@@ -314,15 +317,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-7 from-right">
-                        <img src="assets/img/6685.png" width="100%" alt="">
+                    <div class="col-md-6 from-right">
+                        <img src="assets/img/6685.png" width="80%" alt="">
                     </div>
                 </div>
             </div>
     
             <!-- end cc -->
-            <br><br>
-            <br><br>
+           
     
             <!-- service contact -->
             <div class="container-fluid  desc " align="center" style="padding: 4rem;background-color:rgba(238, 166, 32, 0.87)">

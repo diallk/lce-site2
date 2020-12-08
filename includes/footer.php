@@ -3,20 +3,16 @@
             <div class="text-dark text-center">
                    <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
                                 
-                                <div class="row ">
-                                    <div class="col-md-3 ">
+                                      
                                         <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
-                                    </div>
-                                    <div class="col-md-3">
+                                    
                                         <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
-                                    </div>
-                                    <div class="col-md-3 ">
+                                    
                                         <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
-                                    </div>
-                                    <div class="col-md-3 ">
+                                    
                                         <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-                                    </div>
-                                </div><br/>
+                                    
+                                
                     </div>
       
                 <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">

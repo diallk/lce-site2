@@ -17,7 +17,7 @@ include_once "./config/config.php" ?>
 </head>
 <body onload="myFunction()" >
     <div class="preload">
-        <img class="locomotive" src="assets/img/LOCO.png" alt="locomotive">        
+        <!--<img class="locomotive" src="assets/img/LOCO.png" alt="locomotive">   -->     
         <div class="spinner-border" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -51,9 +51,7 @@ include_once "./config/config.php" ?>
                               <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                               <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
                               <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
-                              <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
-                              <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
-
+                             
                               
                           </li>
                         <li class="nav-item">
@@ -89,83 +87,255 @@ include_once "./config/config.php" ?>
                         </div>
                   </nav>
             </div>
-        </div>        
+        </div> 
+               
         <div class="row" align="center">
             <div class="col-md-4 ">
-
+               
             </div>
+
             <div class="col-md-4" style="margin-top: 5rem;">
                 <div class="" align="center">
                     <h1 style="font-size:75px"><?php echo $lang['solutions']['it']['p0']["1"]; ?></h1>
                     <p ><?php echo $lang['solutions']['it']['p0']["2"]; ?></p>
                 </div>
             </div>
-            <div class="col-md-4 ">
-
-            </div>
-            
-            
-            <!--<div class="col-md-4 ">
-                <h1>A propos</h1>
-                <p style="margin-left: 1rem;">Accueil - A propos</p>
-            </div>
-            <div class="col-md-8 ">
-
-            </div>-->
+           
         </div>
     </div>
     <!-- end of banner -->
 
+
+
+
+
       
       <!-- digit -->
+      <br/><br/>
+      <div class="container-fluid card"   style="color:orange;
+          text-shadow: 3px 2px #000;size:100px;border-left-color: #FF8C00;">
+    
+            
+            <h1><p id="explains">
+            <?php echo $lang['solutions']['it']['title']; ?>   
 
-      <div class="container-fluid" align="justify">
-        <div class="container" style="width: 100%;">
-            <!--<h2 >TRANSFORMATION DIGITALE</h2>-->
-            <br>
-            <p id="explains">
-            <?php echo $lang['solutions']['it']['p1']; ?>            
           </p>
-        </div>
+          </h1>
+       
+        
+       
 
-        <!--<div class="container bord">
-          <div class="row">
-            <div class="col-md-3 bord" style="padding: 1rem;" align="center">
-              <div class="circle bord">
-
-              </div>
-              <p>Subject</p>
-            </div>
-            <div class="col-md-3 bord" style="padding: 1rem;" align="center">
-              <div class="circle bord">
-
-              </div>
-              <p>Subject</p>
-            </div>
-            <div class="col-md-3 bord" style="padding: 1rem;" align="center">
-              <div class="circle bord">
-
-              </div>
-              <p>Subject</p>
-            </div>
-            <div class="col-md-3 bord" style="padding: 1rem;" align="center">
-              <div class="circle bord">
-
-              </div>
-              <p>Subject</p>
-            </div>
-          </div>
-        </div>-->
+        
       </div>
       <!-- end digit -->
-      <br>
-      <br>
-      <br>
-      <br>
+      
+      
       <!-- services -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-7 from-left" align="center">
+     <div class="container-fluid  " >
+<section id="soft_dev_1" class="soft_dev section-bg ">
+    <div class="container">
+        
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/ia-5.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ia-5.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
+
+            <h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2>
+                  <p id="explains"><?php echo $lang['solutions']['it']['digit_trans']['subtitle']; ?></p> 
+                  <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['digit_trans']['content1']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['digit_trans']['content2']; ?></li>
+                      </ul>
+                  </p>   
+               
+            </div>
+
+        </div>
+    </div>
+</section><br/><br/><br/><br/>
+
+<section id="soft_dev_1" class="soft_dev section-bg ">
+    <div class="container">
+        
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/web.jpg" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/web.jpg" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/web.jpg" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+          </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
+
+              <h2 class="text-o"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2>
+                  <p id="explains"><?php echo $lang['solutions']['it']['webmaster']['subtitle']; ?></p> 
+                  <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['webmaster']['content1']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['webmaster']['content2']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['webmaster']['content3']; ?></li>
+                    </ul>
+                  </p>   
+               
+            </div>
+
+        </div>
+    </div>
+</section>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<section id="soft_dev_1" class="soft_dev section-bg ">
+    <div class="container">
+        
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/web.jpg" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/web.jpg" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+          </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
+
+            <h2 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['title']; ?></h2>
+                  <p id="explains"><?php echo $lang['solutions']['it']['intelligence']['details']; ?></p>                
+          
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--<div class="row">-->
+         <!-- <div class="col-md-7 from-left" align="center">
               <img src="assets/img/cloud-4.png" width="50%"  alt="">
           </div>
           <div class="col-md-5 info">
@@ -174,7 +344,7 @@ include_once "./config/config.php" ?>
                 <p id="explains"><?php echo $lang['solutions']['it']['services']['details']; ?></p>                
               </div>
           </div>
-        </div>
+        </div>-->
         <div class="row" style="padding: 3rem;">
           <div class="col-md-6 info lce-design-card">
             <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s1']['title']; ?></h3>
@@ -231,17 +401,15 @@ include_once "./config/config.php" ?>
 
       <!-- Intelligence artificielle -->
       <div class="container-fluid ">
-        <div class="row">
+        <!--<div class="row">
           <div class="col-md-5  info">
               <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
-                  <h2 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['title']; ?></h2>
-                  <p id="explains"><?php echo $lang['solutions']['it']['intelligence']['details']; ?></p>                
-              </div>
+                     </div>
           </div>
           <div class="col-md-7 from-right " align="center">
             <img src="assets/img/ia-5.png" width="50%" alt="service2">
           </div>
-        </div>
+        </div>-->
         <div class="row" style="padding: 3rem;">
           <div class="col-md-6 info lce-design-card" >
             <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s1']['title']; ?></h3>
@@ -281,7 +449,7 @@ include_once "./config/config.php" ?>
       </div>
 
       <div class="container-fluid " style="margin: 3rem;">
-      <div class="row" style="padding: 3rem;">
+      <!--<div class="row" style="padding: 3rem;">
           <div class="col-md-5  info">
               <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
                   <h2 class="text-o"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2>
@@ -298,7 +466,7 @@ include_once "./config/config.php" ?>
           <div class="col-md-7 from-right " align="center">
             <img src="assets/img/web.jpg" width="70%" alt="service2">
           </div>
-        </div>
+        </div>-->
 
         <div class="row" style="padding: 3rem;">
           <div class="col-md-7 from-left" align="center">
@@ -319,7 +487,7 @@ include_once "./config/config.php" ?>
               </div>
           </div>
         </div>
-        <div class="row" style="padding: 3rem;">
+        <!--<div class="row" style="padding: 3rem;">
           <div class="col-md-5  info">
               <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
                   <h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2>
@@ -335,7 +503,7 @@ include_once "./config/config.php" ?>
           <div class="col-md-7 from-right " align="center">
             <img src="assets/img/ia-5.png" width="50%" alt="service2">
           </div>
-        </div>
+        </div>-->
       </div>
      
       <!-- end of IA-->
@@ -392,7 +560,7 @@ include_once "./config/config.php" ?>
     <br>
 
     <!-- Iot -->
-    <div class="container-fluid top-9">
+   <!-- <div class="container-fluid top-9">
       <div class="row" >
         <div class="col-md-6 from-left" style="padding: 3rem;">
             <img src="assets/img/1145.jpg" width="100%" id="Image-nav" alt="" style="border-radius: 5%;">
@@ -400,7 +568,7 @@ include_once "./config/config.php" ?>
         <div class="col-md-6 info" style="padding: 3rem;">
           <h3 class="text-o"><?php echo $lang['solutions']['it']['internetOF']['title']; ?></h3>
           <br>
-          <!--<nav>
+        <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true">RFID</a>
               <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false">NFC</a>
@@ -417,7 +585,7 @@ include_once "./config/config.php" ?>
             </div>
             <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab1">...2</div>
           </div>-->
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+         <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" id="pills-home-tab1" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><?php echo $lang['solutions']['it']['internetOF']['s1']['title']; ?></a>
             </li>
@@ -442,7 +610,7 @@ include_once "./config/config.php" ?>
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <!-- end Iot -->
     <br>
     <br>
@@ -452,20 +620,14 @@ include_once "./config/config.php" ?>
             <div class="card-footer text-dark text-center">
                    <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
                                 
-                                <div class="row ">
-                                    <div class="col-md-3 ">
-                                        <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
-                                    </div>
-                                    <div class="col-md-3 ">
-                                        <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                        <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-                                    </div>
-                                </div><br/>
+                   <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                                    
+                                    <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
+                                
+                                    <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
+                                
+                                    <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+                                
                     </div>
       
                 <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">

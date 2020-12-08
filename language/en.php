@@ -27,8 +27,8 @@ $lang = array(
                 "5" => "develop"
             ),
             "3" => "Logistics",
-            "4" => "Building public works",
-            "5" => "Trainings",
+           /* "4" => "Building public works",
+            "5" => "Trainings",*/
         ),
         "h3" => "Shop",
         "h4" => "About us",

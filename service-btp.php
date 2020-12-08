@@ -110,6 +110,68 @@
       
 
      <!-- conception -->
+     <section id="soft_dev_1" class="soft_dev section-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2 data-aos="fade-in" class="aos-init"><?php echo $lang['solutions']['it']['saas']['title']; ?></h2>
+        </div>
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/services/software.jpeg" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/logiciel-gestion.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/services/gestion.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
+                <h3><?php echo $lang['solutions']['it']['saas']['subtitle']; ?></h3>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    <?php echo $lang['solutions']['it']['saas']['content1']; ?>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    <?php echo $lang['solutions']['it']['saas']['content2']; ?>
+                </p>
+                <p style="color: black; font-size: 18px;text-align: justify;line-height: 35px;">
+                    <?php echo $lang['solutions']['it']['saas']['content3']; ?>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
      <div class="container-fluid ">
       <div class="row">
        

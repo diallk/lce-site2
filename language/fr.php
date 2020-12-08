@@ -4,9 +4,9 @@ $lang = array(
     "header" => array(
         "h0" => "Entrez dans un monde de confiance",
         "h1" => "Accueil",
-        "h2" => "Nos solutions",
+        "h2" => "Solution",
         "h2_" => array(
-            "1" => "IT",
+            "1" => "DIGITALE ET INNOVATION",
             "1_" => array(
                 "1" => "Web master",
                 "2" => "transformation digitale",
@@ -18,7 +18,7 @@ $lang = array(
                 "8" => "IOT/IA",
                 "9" => "Réalité Virtuelle",
             ),
-            "2" =>  "Télécom",
+            "2" =>  "PRODUIT ET SERVICES",
             "2_" => array(
                 "1" => "think",
                 "2" => "build",
@@ -26,9 +26,9 @@ $lang = array(
                 "4" => "support",
                 "5" => "develop"
             ),
-            "3" => "Logistique",
-            "4" => "BTP",
-            "5" => "Formations",
+            "3" => "FORMATION ET ASSIATANCE",
+            /*"4" => "BTP",
+            "5" => "Formations",*/
         ),
         "h3" => "Boutique",
         "h4" => "A propos",
@@ -81,9 +81,9 @@ $lang = array(
     ),
     "fr" => "Français",
     "en" => "Anglais",
-    "ask_1" => "Satisfait vos besoins est notre priorité",
-    "ask_2" => "Contacter-nous",
-    "pop" => "Nous Contacter",
+    "ask_1" => "Satisfaire vos besoins est notre priorité",
+    "ask_2" => "Contactez-nous",
+    "pop" => "Nous Contactez",
     "pop1" => "Contact",
     "pop_form" => array(
             "l1" => "Nom & Prénoms",
@@ -96,8 +96,8 @@ $lang = array(
             "b2" => "Fermer",
     ),
     "home" => array(
-        "f1" => "Nous innovons, vous",
-        "f2" => "Performez",
+        "f1" => "Entrez dans un monde , de",
+        "f2" => " confiance",
         "f3" => "Nous fournissons des services intégrés allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée!",
         "f6" => "En savoir plus",
         "f7" => "Contactez-nous",
@@ -106,7 +106,7 @@ $lang = array(
         "intro1" => "Nos Domaines D'activités",
         "ct" => array(
             "s1" => array(
-                "title" => "IT",
+                "title" => "DIGITAL ET INNOVATION",
                 "p" => "Web Master/IOT",
                 "p1" => "Transformation Digitale",
                 "p2" => "Cloud Computing/Saas",
@@ -115,34 +115,34 @@ $lang = array(
                 
             ), 
             "s2" => array(
-                "title" => "Télécom",
+                "title" => "PRODUIT ET SERVICES",
                 "p" => "Think",
                 "p1" => "Build",
                 "p2" => "Operation",
                 "p3" => "Support",
             ),
             "s3" => array(
-                "title" => "Formation",
+                "title" => "FORMATION ET ASSIATANCE",
                 "p" => "",
             ),
-            "s4" => array(
+           /* "s4" => array(
                 "title" => "Services Divers",
                 "p" => "Logistique",
                 "p1" => "BTP",
                
-            ),
+            ),*/
             "plus" => "Voir Plus"
         ),
         "client" => "Nos Clients",
         "client_fin" => "",
         "c_1" => "B2C",
-        "c_2" => "Entreprise à consommateur",
-        "c_3" => "Marché de masse",
+        "c_2" => "Le marketing B2C (Business to Consumer) correspond aux techniques marketing destinées au grand public et utilisées dans le cadre d'une activité commerciale entre une entreprise et les consommateurs.",
+        "c_3" => "",
         "c_4" => "B2B",
-        "c_5" => "Carrier",
-        "c_6" => "PME",
-        "c_7" => "Secteur tertiaire",
-        "c_8" => "ISP",
+        "c_5" => "Le marketing B2B (Business to Business) correspond aux techniques marketing utilisées dans le cadre d'une activité commerciale entre deux entreprises.",
+        "c_6" => "",
+        "c_7" => "",
+        "c_8" => "",
         "c_9" => "B2E",
         "c_10" => "Administration publique",
         "c_11" => "Ambassades",
@@ -153,12 +153,12 @@ $lang = array(
     "solutions" => array(
         "it" => array( 
             "p0" => array(
-                "1" => "R & D",
-                "2" => "Recherche Et Développement",
+                "1" => "D & I",
+                "2" => "Digital Et Innovation",
             ),            
-            "p1" => "La capacité des organisations à prospérer dans une économie forte et à rester résilientes dans un environnement en évolution rapide dépend de leur possibilité d'exploiter les données pour naviguer dans la transformation. Nous vous emmenons à une autre dimension de L'AUTOMATISATION OÙ LES DONNÉES PARLENT ET LES HUMAINS AGISSENT.",
+            "title" => "<center><h2>DIGITAL ET INNOVATION</h2></center><br/><br/>",
             "services" => array(
-                "title" => "SERVICES",
+                "p" => "SERVICES",
                 "details" => "La locomotive vous offres divers services dans les domaines nouveaux de la technologie comme le cloud et autres. De plus elle vous fait profiter de son expérience, avec du coaching !",
                 "s1" => array(
                     "title" => "Cloud Computing",
