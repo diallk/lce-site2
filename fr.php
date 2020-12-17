@@ -161,7 +161,7 @@ $lang = array(
                 "title" => "SERVICES",
                 "details" => "La locomotive vous offres divers services dans les domaines nouveaux de la technologie comme le cloud et autres. De plus elle vous fait profiter de son expérience, avec du coaching !",
                 "s1" => array(
-                    "title" => "Cloud Computing",
+                    "title" => "Solution Cloud ",
                     "details" => "Nouvelle vision IT du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous la forme de service. Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins."
                 ),
                 "s2" => array(
@@ -169,7 +169,7 @@ $lang = array(
                     "details" => "La Locomotive fournit un service E2E de la conception à la maintenance en passant par la mise en œuvre et l'administration. Les données sont l'atout le plus précieux d'une entreprise. Par conséquent, les protéger devient une priorité. Nous offrons des technologies de dernière génération pour la sécurité de votre business."
                 ),
                 "s3" => array(
-                    "title" => "Business Coach",
+                    "title" => "Application Metier",
                     "details" => "La Locomotive offre un accompagnement personnalisé qui vous aidera à mettre en œuvre vos projets de transformation. Notre service va du simple support en ligne à une assistance sur site et à la conduite du changement."
                 ),
                 "s4" => array(
@@ -322,10 +322,25 @@ $lang = array(
                 "content1" => "La Locomotive offre des services supports pour permettre à votre business de rester connecté en plein temps. Notre assistance se fait en ligne et sur site. Nos solutions supports couvrent le Call Center, le TAC (Technical Assistance Center), l’Audit et conseil, l’aide à la réalisation et la Consultance.",
             ),
         ),
+
+        "assistance" => array(
+            "p0" =>array(
+                "0" => "F & A",
+                "1" => "Formation et Assistance"
+            ),
+            "p1" =>  array(
+                "title" => "FORMATION ET ASSISTANCE",
+                "subtitle" => "",
+                "content1" => "",
+                "content2" => 'Pour tous travaux de <b>Design</b> Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
+            ),
+        ),
+
         "logistique" => "",
         "btp" => "",
         "formation" => ""
     ),
+   
     "boutique" => array(
         "" => "",
         "" => "",

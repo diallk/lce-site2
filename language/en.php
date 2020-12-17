@@ -6,7 +6,7 @@ $lang = array(
         "h1" => "Home",
         "h2" => "Our solutions",
         "h2_" => array(
-            "1" => "IT",
+            "1" => "DIGITAL AND INNOVATION",
             "1_" => array(
                 "1" => "Web development",
                 "2" => "digital transformation",
@@ -18,7 +18,7 @@ $lang = array(
                 "8" => "IOT/IA",
                 "9" => "Virtual reality",
             ),
-            "2" =>  "Telecom",
+            "2" =>  "PRODUCTS AND SERVICES",
             "2_" => array(
                 "1" => "think",
                 "2" => "build",
@@ -26,7 +26,7 @@ $lang = array(
                 "4" => "support",
                 "5" => "develop"
             ),
-            "3" => "Logistics",
+            "3" => "TRAINING AND ASSISTANCE",
            /* "4" => "Building public works",
             "5" => "Trainings",*/
         ),
@@ -95,9 +95,10 @@ $lang = array(
         "b2" => "Close",
     ),
     "home" => array(
-        "f1" => "we innovate, you ",
-        "f2" => "Perform !",
-        "f3" => "We provide integrated services ranging from the simple idea of ​​a client to its materialization to become added value.",
+        "f1" => "Enter a world of ",
+        "f2" => "trust !",
+        "f3" => "Thanks to a series of latest generation technology, we are able to help our customers to quickly transform their fears into potential leaving them simplicity
+        and keep the complexity to ourselves.",
         "f6" => "See More",
         "f7" => "Contact us",
         "floating" => "Contact Us",
@@ -105,23 +106,42 @@ $lang = array(
         "intro1" => "Our areas of activity",
         "ct" => array(
             "s1" => array(
-                "title" => "IT",
-                "p" => "Web Master/IOT",
+                "title" => "DIGITAL AND INNOVATION",
+                "p" => "Automation, Robotic Process Automation (RPA), Artificial Intelligence",
                 "p1" => "Digital transformation",
-                "p2" => "Cloud Computing/Saas",
-                "p3" => "Business Networking",
-                "p4" => "Cybersecurity/IA",
+                "p2" => "Solutions integrator",
+                "p3" => "Simplification & personalization of the customer and / or user journey",
+                "p4" => "Data protection & security (GDPR) and encryption: a major challenge for companies",
+                "p5" => "Digitization & electronic signature of documents: an essential development",
+                "p6" => "agile approaches in business",
+                "p7" => "La traçabilité et la blockchain",
+                "p8" => "Business applications and BI systems (APP) based on use cases (UC)"
+               
+
                  ), 
             "s2" => array(
-                "title" => "Telecom",
-                "p" => "Think",
-                "p1" => "Build",
-                "p2" => "Operation",
-                "p3" => "Support",
+                "title" => "PRODUCT AND SERVICES",
+                "p" => "Technical services",
+                "p1" => "Support Services",
+                "p2" => "Logistics (Implementation and management of warehouses)",
+                "p3" => "Operational management of telecom and transmission networks",
+                "p4" => "Supply of a turnkey connected solution",
+                "p5" => "Supply of consumables",
+                "p6" => "Supply of various goods",
+                "p7" => "Drive test and optimization of telecom networks",
             ),
             "s3" => array(
-                "title" => "Training",
-                "p" => "",
+                "title" => "TRAINING AND ASSISTANCE",
+                "p" => "Strategy consultancy",
+                "p1" => "Business consultancy",
+                "p2" => "Consultancy in Design, Realization, Operation and Analysis of Telecoms networks",
+                "p3" => "Audit & Consulting for operational efficiency",
+                "p4" => "Training in the quality approach",
+                "p5" => "Change management",
+                "p6" => "Development of Partner Manage activity",
+                "p7" => "Skill development",
+                "p8" => "Process Design & Optimization",
+                "p9" =>"Documentation management"
             ),
             "s4" => array(
                 "title" => "Miscellaneous Services",
@@ -153,7 +173,13 @@ $lang = array(
             "p0" => array(
                 "1" => "R & D",
                 "2" => "Research And Development",
+                "3"=>" A & F",
+                "4"=>"Assistance And Training",
             ),
+            "title" => "<center><h2>INNOVATION </h2></center><br/><br/>",
+            "title1" => "<center><h2>DIGITAL</h2></center><br/><br/>",
+           
+           
             "p1" => "The ability of organizations to thrive in a strong economy and remain resilient in a rapidly changing environment depends on their ability to leverage data to navigate transformation. We take you to another dimension of AUTOMATION WHERE DATA SPEAKS AND HUMANS ACT.",
             "services" => array(
                 "title" => "SERVICES",
@@ -167,6 +193,8 @@ $lang = array(
                     "details" => "La Locomotive provides an E2E service from design to maintenance, including implementation and administration. Data is a company's most valuable asset. Therefore, protecting them becomes a priority. We offer the latest generation technologies for the security of your business."
                 ),
                 "s3" => array(
+                    "title1"=>"<center><h2>ASSISTANCE</h2></center>",
+                    "title2"=>"<center><h2>FORMATION</h2></center>",
                     "title" => "Business Coach",
                     "details" => "La Locomotive offers personalized support to help you implement your transformation projects. Our service ranges from simple online support to on-site assistance and change management."
                 ),
@@ -294,11 +322,13 @@ $lang = array(
         ),
         "telecoms" =>  array(
             "p0" =>array(
-                "0" => "Telecom solutions",
-                "1" => "Home - Solution - Telecom"
+                "0" => "P & S",
+                "1" => "Products et Services"
             ),
             "p1" =>  array(
                 "title" => "DESIGN & ENGINEERING",
+                "title1" => "SERVICES",
+                "title2" => "PRODUITS",
                 "subtitle" => "Design engineering",
                 "content1" => "The data and telecommunications landscape continues to evolve at a rapid pace. Competent, strategic and careful planning is needed to make decisions that will improve the reliability, efficiency and sustainability of services. Thus, our team of experts is responsible for developing innovative, creative architectures adapted to the needs for the satisfaction of our customers.",
                 "content2" => 'For all <b> Design </b> Networks work, Contact us <a href="contacts.php"> here </a>.'

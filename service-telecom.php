@@ -15,7 +15,7 @@
 </head>
 <body onload="myFunction()" >
     <div class="preload">
-        <img class="locomotive" src="assets/img/LOCO.png" alt="locomotive">        
+        <!--<img class="locomotive" src="assets/img/LOCO.png" alt="locomotive">   -->     
         <div class="spinner-border" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -49,9 +49,7 @@
                               <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                               <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
                               <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
-                              <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
-                              <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
-
+                             
                               
                           </li>
                         <li class="nav-item">
@@ -93,7 +91,7 @@
 
             </div>
             <div class="col-md-4" style="margin-top: 1.5rem;">
-                <div class="" align="center">
+                <div class="" align="center"><br/><br/>
                     <h1 style="font-size:75px"><?php echo $lang['solutions']['telecoms']['p0']['0']; ?></h1>
                     <p ><?php echo $lang['solutions']['telecoms']['p0']['1']; ?></p>
                 </div>
@@ -103,7 +101,7 @@
             </div>
             
             
-            <!--<div class="col-md-4 ">
+          <!-- <div class="col-md-4 ">
                 <h1>A propos</h1>
                 <p style="margin-left: 1rem;">Accueil - A propos</p>
             </div>
@@ -112,19 +110,65 @@
             </div>-->
         </div>
     </div>
+    
+            <CENTER><div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);"style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;" ><br/><br/>
+            <h1 style="">
+              <?php echo $lang['solutions']['telecoms']['p1']['title1']; ?>
+            </h1>
+               
+            </div></CENTER>
     <!-- end of banner -->
 
       <br>
-      <br>
-      <br>
-      <br>  
+      
       
 
     <!-- conception -->
+    <section id="soft_dev_1" class="soft_dev section-bg " >
+
     <div class="container-fluid ">
       <div class="row">
-        <div class="col-md-6  info" style="padding-left: 3rem;">
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p1']['title']; ?></h3> 
+        <div class="col-md-4  info from-left " align="center">
+            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
+        </div>
+        <div class="col-md-7  info" style="padding-right: 3rem;">
+          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p2']['title']; ?></h3><br/><br/>
+          <div >
+              <h4><?php echo $lang['solutions']['telecoms']['p2']['subtitle']; ?></h4>
+              <p>
+                <?php echo $lang['solutions']['telecoms']['p2']['content1']; ?>
+                <?php echo $lang['solutions']['telecoms']['p2']['content2']; ?>
+
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    </section>
+   
+
+    <!-- realisation -->
+   
+
+      <section id="soft_dev_1" class="soft_dev section-bg from-right " style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+
+;" >
+      <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-6  info" style="padding-left: 3rem;"><br/>
+          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p1']['title']; ?></h3><br/><br/> 
           <div>
               <h4>
                 <?php echo $lang['solutions']['telecoms']['p1']['subtitle']; ?>              
@@ -140,49 +184,153 @@
         </div>
         <div class="col-md-6 info from-right" align="center">
           <br><br>
-            <img src="assets/img/telecom-0.png" width="70%" alt="">
+            <img src="assets/img/telecom-0.png" width="60%" alt="">
         </div>
       </div>
-    </div>
-    <!-- end conception -->
+</section>
 
-    <br>
-    <br>
-    <br>
-    <br>
 
-    <!-- realisation -->
+
+
+
+<section id="soft_dev_1" class="soft_dev section-bg "  style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 
+;">
+
     <div class="container-fluid ">
       <div class="row">
-        <div class="col-md-6  info from-left " align="center">
+        <div class="col-md-4  info from-left " align="center">
             <img src="assets/img/telecom-2-1.png" width="50%" alt="">
         </div>
-        <div class="col-md-6  info" style="padding-right: 3rem;">
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p2']['title']; ?></h3>
-          <div >
-              <h4><?php echo $lang['solutions']['telecoms']['p2']['subtitle']; ?></h4>
-              <p>
-                <?php echo $lang['solutions']['telecoms']['p2']['content1']; ?>
-                <?php echo $lang['solutions']['telecoms']['p2']['content2']; ?>
-
-              </p>
+        <div class="col-md-7  info" style="padding-right: 3rem;">
+           <div >
+          <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s1']['title']; ?></h3><br/><br/>
+             <div>
+              <h4>
+              <?php echo $lang['solutions']['it']['services']['s1']['details']; ?>
+              </h4>
+              
           </div>
         </div>
       </div>
     </div>
+    
+    </section>
+<section id="soft_dev_1" class="soft_dev section-bg from-right "  >
+      <div class="container-fluid ">
+      
+      <div class="row">
+        <div class="col-md-6  info" style="padding-left: 3rem;"><br/><br/>
+        <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s2']['title']; ?></h3><br/><br/>
+             <div>
+              <h4>
+              <?php echo $lang['solutions']['it']['services']['s2']['details']; ?>
+              </h4>
+              
+          </div>
+          
+        </div>
+        <div class="col-md-5 info " align="center">
+          
+            <img src="assets/img/telecom-0.png" width="60%" alt="">
+        </div>
+      </div>
+</section>
+
+
+<section id="soft_dev_1" class="soft_dev section-bg " >
+
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-4  info from-left " align="center">
+            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
+        </div>
+        <div class="col-md-7  info" style="padding-right: 3rem;">
+           <div >
+           <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s4']['title']; ?></h3><br/><br/>
+            <div>
+             <ul id="explains">
+                <li><?php echo $lang['solutions']['it']['services']['s4']['p1']; ?></li>
+                <li><?php echo $lang['solutions']['it']['services']['s4']['p2']; ?></li>
+                <li><?php echo $lang['solutions']['it']['services']['s4']['p3']; ?></li>
+              </ul>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+
+
+
+    <section id="soft_dev_1" class="soft_dev section-bg from-right "  >
+      <div class="container-fluid ">
+      
+      <div class="row">
+        <div class="col-md-6  info" style="padding-left: 3rem;"><br/><br/>
+        <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s3']['title']; ?></h3><br/><br/>
+                
+                  <div>
+              
+                 <p id="explains">
+              <?php echo $lang['solutions']['it']['intelligence']['s3']['details']; ?>
+                </p>
+              
+          </div>
+          
+        </div>
+        <div class="col-md-5 info " align="center">
+          
+            <img src="assets/img/telecom-0.png" width="60%" alt="">
+        </div>
+      </div>
+</section>
+
+
+
+
+  
+
+<section id="soft_dev_1" class="soft_dev section-bg "  >
+
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-4  info from-left " align="center">
+            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
+        </div>
+        <div class="col-md-7  info" style="padding-right: 3rem;">
+           <div >
+           <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s2']['title']; ?></h3><br/>
+              <div>
+              <p id="explains">              
+            <?php echo $lang['solutions']['it']['intelligence']['s2']['details']; ?>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+
     <!-- end realisation -->
 
-    <br>
-    <br>
-    <br>
-    <br>  
+     
     
 
     <!-- operate -->
+    <section id="soft_dev_1" class="soft_dev section-bg " style=" background: linear-gradient(180deg,  #fff  0%,#f2f6fa 100%);" >
     <div class="container-fluid ">
     <div class="row">
-      <div class="col-md-6  info" style="padding-left: 3rem;">
-        <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p3']['title']; ?></h3>
+    <div class="col-md-6  info from-right " align="center">
+        <br><br>
+          <img src="assets/img/telecom-3.png" width="100%" alt="">
+      </div>
+      <div class="col-md-6  info" style="padding-left: 3rem;"><br/><br/><br/><br/><br/><br/>
+        <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p3']['title']; ?></h3><br/><br/>
         <div>
           <h4><?php echo $lang['solutions']['telecoms']['p3']['subtitle']; ?></h4>
           <p>
@@ -190,55 +338,44 @@
           </p>
         </div>
       </div>
-      <div class="col-md-6  info from-right " align="center">
-        <br><br>
-          <img src="assets/img/telecom-3.png" width="100%" alt="">
-      </div>
+     
     </div>
     </div>
+    </section>
     <!-- end operate -->
 
-    <br>
-    <br>
-    <br>
-    <br>
 
     <!-- support -->
-    <div class="container-fluid ">
-      <div class="row">
-        <div class="col-md-6  info from-left" align="center">
-          <img src="assets/img/support.png" width="80%" alt="">
-        </div>
-        <div class="col-md-6  info" style="padding-right: 3rem;">
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p4']['title']; ?></h3>
-          <div>
-            <h4><?php echo $lang['solutions']['telecoms']['p4']['subtitle']; ?></h4>
-            <p>
-            <?php echo $lang['solutions']['telecoms']['p4']['content1']; ?>            </p>
-          </div>
-        </div>
-      </div>
+    
     </div>
+    <CENTER><div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);"style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;" ><br/><br/>
+            <h1 style="">
+              <?php echo $lang['solutions']['telecoms']['p1']['title2']; ?>
+            </h1>
+               
+            </div></CENTER>
+            <br/><br/><br/><br/><br/><br/>
     <!-- end support -->
 
     <footer >
             <div class="card-footer text-dark text-center">
                    <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
+                   <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank">
+                   <img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                                    
+                                    <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
                                 
-                                <div class="row ">
-                                    <div class="col-md-3 ">
-                                        <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
-                                    </div>
-                                    <div class="col-md-3 ">
-                                        <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                        <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-                                    </div>
-                                </div><br/>
+                                    <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
+                                
+                                    <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+                                
                     </div>
       
                 <div class="card" style="padding: 3.5rem;border:none;background-color:rgba(223, 221, 219, 0.212);">

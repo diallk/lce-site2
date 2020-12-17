@@ -108,7 +108,7 @@
                         <div class="row " style="color:#fd7e14;">
                             <h1 class="accroche"><?php echo $lang['home']['f2']; ?> </h1>
                         </div>
-                        <div class="row ">
+                        <div class="row " style="text-justify: distribute;">
                             <p class="left desc" id="explain"><?php echo $lang['home']['f3']; ?> </p>
                         </div>
                         <div class="row  desc">
@@ -124,6 +124,7 @@
             <!-- end hc -->
             <br>
             <!-- little word -->
+  
             <div class="container " style="margin-top: 6rem;" align="center"  style="width: 50%;box-sizing: content-box;width: 100%;">
                 <div class="">
                     <h1>
@@ -131,82 +132,124 @@
                     </h1>
                 </div>
             </div>
+  
             <?php include "includes/pop.php"; ?>
-    <br><br>
+            <br><br> <br><br>
             <!-- skills content -->
-            <div class="container desc ">
-                <div class="row" >
-                    <div class="col-md-4 ">
-                        <div class="flip-box from-left">
+            
+                <div class="row" style="" >
+                    <div class="col-md-4" >
+                        <div class="flip-box from-left" style="border: 1px black solid ;height: 390px;width: 600px;">
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
                                   <img src="assets/img/cloud.png"  alt="">
                                   <br><br>
                                 <p><strong><?php echo $lang['home']['ct']['s1']['title']; ?></strong></p>
                               </div>
-                              <div class="flip-box-back" style="padding: 1rem;">
-                                <h2><?php echo $lang['home']['ct']['s1']['title']; ?></h2>
-                                <br>
-                                <p>
-                                <?php echo $lang['home']['ct']['s1']['p']; ?>
-                                </p>
-                                <p>
-                                <?php echo $lang['home']['ct']['s1']['p1']; ?>
-                                </p>
-                                <p>
-                                <?php echo $lang['home']['ct']['s1']['p2']; ?>
-                                </p>
-                                  <?php echo $lang['home']['ct']['s1']['p3']; ?>
-                                </p>
-                                </p>
-                                  <?php echo $lang['home']['ct']['s1']['p4']; ?>
-                                </p>
+                              <div class="flip-box-back" style="padding: 1rem;text-align: left;"><br/>
+                                  
+                                
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p']; ?></a></b><br/>
+                                
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p1']; ?></a></b><br/>
+                                
+                                <b><a href="#"> <?php echo $lang['home']['ct']['s1']['p2']; ?></a></b><br/>
+                                
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p3']; ?></a></b><br/>
+                               
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p4']; ?></a></b> <br/>
+                                
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p5']; ?></a></b><br/>
+                               
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p6']; ?></a></b><br/>
+                                
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p7']; ?></a></b><br/>
+                               
+                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p8']; ?></a></b><br/> 
                                
                                 
                               </div>
                             </div>
                           </div>
                     </div>
-                    <div class="col-md-4 ">
-                        <div class="flip-box from-left">
+                    <div class="col-md-4 " >
+                        <div class="flip-box from-left" style="border:1px black solid ;height: 390px;
+
+width: 600px;">
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
                                 <img src="assets/img/securite.png"  alt="">
                                 <br><br>
                                 <p><strong><?php echo $lang['home']['ct']['s2']['title']; ?></strong></p>
                               </div>
-                              <div class="flip-box-back" style="padding: 1rem;">
-                                <h2><?php echo $lang['home']['ct']['s2']['title']; ?></h2>
-                                <br>
+                              <div class="flip-box-back" style="padding: 1rem;text-align: left;">
+                                 <br>
                                 <p>
-                                    <?php echo $lang['home']['ct']['s2']['p']; ?> 
+                                   <a href="#"><?php echo $lang['home']['ct']['s2']['p']; ?> </a> 
                                 </p>
                                 <p>
-                                    <?php echo $lang['home']['ct']['s2']['p1']; ?> 
+                                   <a href="#"><?php echo $lang['home']['ct']['s2']['p1']; ?> </a> 
                                 </p>
                                 <p>
-                                    <?php echo $lang['home']['ct']['s2']['p2']; ?> 
+                                    <a href="#"><?php echo $lang['home']['ct']['s2']['p2']; ?> </a>
                                 </p>
                                 <p>
-                                    <?php echo $lang['home']['ct']['s2']['p3']; ?> 
+                                   <a href="#"><?php echo $lang['home']['ct']['s2']['p3']; ?> </a> 
                                 </p>
+                                <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s2']['p4']; ?> </a>
+                                </p>
+                                <p>
+                                   <a href="#"><?php echo $lang['home']['ct']['s2']['p5']; ?> </a> 
+                                </p>
+                                <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s2']['p6']; ?></a> 
+                                </p>
+                                <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s2']['p7']; ?> </a>
+                                </p>
+                                
                               </div>
                             </div>
                           </div>
                     </div>
                     <div class="col-md-4 ">
-                        <div class="flip-box from-right">
+                        <div class="flip-box from-right"style="border:1px black solid ;height: 390px;width: 600px;" >
                             <div class="flip-box-inner">
                               <div class="flip-box-front" style="padding: 3rem;">
-                                <img src="assets/img/trans-digit.png" class="img"  alt="">
-                                <br><br>
-                                <p><strong><?php echo $lang['home']['ct']['s3']['title']; ?></strong></p>
+                              <img src="assets/img/cloud.png"  alt="">
+                                <br><br/>
+                                <strong><?php echo $lang['home']['ct']['s3']['title']; ?></strong>
                               </div>
-                              <div class="flip-box-back" style="padding: 1rem;">
-                                <h2><?php echo $lang['home']['ct']['s3']['title']; ?></h2>
-                                <br>
+                              <div class="flip-box-back" style="padding: 1rem;text-align: left;size:25px;">
+                                  
                                 <p>
-                                    <?php echo $lang['home']['ct']['s3']['p']; ?>                                </p>
+                                   <a href="#"> <?php echo $lang['home']['ct']['s3']['p1']; ?> </a>
+                                 </p>
+                                 <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s3']['p2']; ?> </a>
+                                 </p>
+                                 <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s3']['p3']; ?> </a>
+                                 </p>
+                                 <p>
+                                    <a  href="#"><?php echo $lang['home']['ct']['s3']['p4']; ?> </a>
+                                 </p>
+                                 <p>
+                                   <a href="#"><?php echo $lang['home']['ct']['s3']['p5']; ?> </a> 
+                                 </p>
+                                 <p>
+                                   <a href="#"><?php echo $lang['home']['ct']['s3']['p6']; ?> </a> 
+                                 </p>
+                                 <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s3']['p7']; ?> </a>
+                                 </p>
+                                 <p>
+                                   <a href="#"><?php echo $lang['home']['ct']['s3']['p8']; ?> </a> 
+                                 </p>
+                                 <p>
+                                    <a href="#"><?php echo $lang['home']['ct']['s3']['p9']; ?> </a>
+                                 </p>
                               </div>
                             </div>
                           </div>
@@ -235,7 +278,7 @@
                 </div>
                 <br>
                 <div class="row desc" style="justify-content: center;">
-                    <a class="btn text-light btn-lg btn-animate" href=service-it.php" id="btn-modif" ><?php echo $lang['home']['ct']['plus']; ?></a>
+                    <a class="btn text-light btn-lg btn-animate" href=service-it.php id="btn-modif" ><?php echo $lang['home']['ct']['plus']; ?></a>
                 </div>
                 
             </div>
@@ -251,56 +294,115 @@
                 </div>
             </div>
             <!-- end lw -->
+
+            
     
             <!-- content client -->
-            <div class="container-fluid  desc1">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="container top" style="margin-left: 2.5rem;">
-                            <div class="row from-left">
-                                <h2><?php echo $lang['home']['c_1']; ?></h2>                            
-                            </div>                        
-                            <div class="row from-left" style="margin-top: 1rem;margin-left:1rem" id="explain">
-                                <ul>
-                                    <li><?php echo $lang['home']['c_2']; ?></li>
-                                    
-                                </ul>                            
-                            </div>
-                        </div>
-
-
-
-
-
-                    </div>
-                    <div class="col-md-6 from-right">
+ <div class="container-fluid  desc1">
+    <div class="row">
+     <div class="col-md-6" style="padding: 3rem;">                 
+      
+         <h2 class="text-o"> <h2><?php echo $lang['home']['c_1']; ?></h2> </h2>
+         <br>
+         <nav>
+           <div class="nav nav-tabs" id="nav-tab" role="tablist">
+             <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true"><?php echo $lang['home']['c_2']; ?></a>
+             <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false"><?php echo $lang['home']['c_3']; ?></a>
+       
+           </div>
+         </nav>
+       <div class="tab-content" id="nav-tabContent">
+           <div class="tab-pane fade show active" style="padding: 1rem;" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab1">
+              <h4 class="text-o" style="color: black;"> <?php echo $lang['home']['c_16']; ?> </h4>
+        </div>
+           <div class="tab-pane fade" id="nav-profile1" role="tabpanel" style="padding: 1rem;" aria-labelledby="nav-profile-tab1">
+                <h4 class="text-o" style="color:black;"> <?php echo $lang['home']['c_15']; ?></h4> </div>
+             </div>  
+         </div>
+         <div class="col-md-6 from-right">
                         <img src="assets/img/5222.jpg" width="80%" alt="">
-                    </div>
-                </div>
-            </div><br>
-            <div class="container-fluid  desc1">
-                <div class="row">
-                    <div class="col-md-6 from-left">
+         </div>
+        </div>
+     </div>
+     
+
+
+     <div class="container-fluid  desc1">
+    <div class="row">
+    <div class="col-md-6 from-right">
                         <img src="assets/img/4376.png" width="80%" alt="">
-                    </div>
-                    <div class="col-md-6"> <br><br>
-                        <div class="container top" style="margin-left: 0rem;">
-                            <div class="row from-right">
-                                <h2><?php echo $lang['home']['c_4']; ?></h2>                            
-                            </div>                        
-                            <div class="row from-right" style="margin-top: 1rem;margin-left:1rem" id="explain">
-                                <ul>
-                                    <li><?php echo $lang['home']['c_5']; ?></li>
-                                    <!--<li><?php echo $lang['home']['c_6']; ?></li>
-                                    <li><?php echo $lang['home']['c_7']; ?></li>
-                                    <li><?php echo $lang['home']['c_8']; ?></li>-->
-                                </ul>                            
-                            </div>
-                        </div>                    
-                    </div>
-                </div>
-            </div> <br>
-            <div class="container-fluid desc1">
+      </div>
+     <div class="col-md-6" style="padding: 3rem;">                 
+      
+         <h2 class="text-o"> <h2><?php echo $lang['home']['c_4']; ?></h2> </h2>
+         <br>
+         <nav>
+           <div class="nav nav-tabs" id="nav-tab" role="tablist">
+             <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-home" aria-selected="true"><?php echo $lang['home']['c_5']; ?></a>
+             <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-profile" aria-selected="false"><?php echo $lang['home']['c_6']; ?></a>
+            <a class="nav-item nav-link" id="nav-contact-tab1" data-toggle="tab" href="#nav-contact2" role="tab" aria-controls="nav-contact" aria-selected="false"><?php echo $lang['home']['c_8']; ?></a>
+                
+             
+           </div>
+         </nav>
+        <div class="tab-content" id="nav-tabContent">
+           <div class="tab-pane fade show active" style="padding: 1rem;" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab1">
+              <h4 class="text-o" style="color: black;text-justify: distribute;"> <?php echo $lang['home']['c_21']; ?></> </h4>
+          </div>
+           <div class="tab-pane fade" id="nav-profile2" role="tabpanel" style="padding: 1rem;" aria-labelledby="nav-profile-tab1">
+                <h4 class="text-o" style="color: black;text-justify: distribute;"> <?php echo $lang['home']['c_7']; ?> </h4> 
+           </div>
+           <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact-tab1">
+               <h4 class="text-o" style="color: black;text-justify: distribute;"> <?php echo $lang['home']['c_17']; ?></h4> 
+           </div>
+          
+           
+          
+
+        </div>  
+         </div>
+        
+        </div>
+     </div><br>
+
+
+     <div class="container-fluid  desc1">
+    <div class="row">
+     <div class="col-md-6" style="padding: 3rem;">                 
+      
+         <h2 class="text-o"> <h2><?php echo $lang['home']['c_9']; ?></h2> </h2>
+         <br>
+         <nav>
+           <div class="nav nav-tabs" id="nav-tab" role="tablist">
+           <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home3" role="tab" aria-controls="nav-home" aria-selected="true"><?php echo $lang['home']['c_10']; ?></</a>
+             <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile3" role="tab" aria-controls="nav-profile" aria-selected="false"><?php echo $lang['home']['c_11']; ?></a>
+            <a class="nav-item nav-link" id="nav-contact-tab1" data-toggle="tab" href="#nav-contact3" role="tab" aria-controls="nav-contact" aria-selected="false"><?php echo $lang['home']['c_12']; ?></a>
+             <a class="nav-item nav-link " id="nav-secteur-tab1" data-toggle="tab" href="#nav-secteur3" role="tab" aria-controls="nav-secteur" aria-selected="false"><?php echo $lang['home']['c_13']; ?></a>
+              </div>
+         </nav>
+       <div class="tab-content" id="nav-tabContent">
+       <div class="tab-pane fade show active" style="padding: 1rem;" id="nav-home3" role="tabpanel" aria-labelledby="nav-home-tab1">
+              <h4 class="text-o" style="text-justify: distribute;color:black;"> <?php echo $lang['home']['c_18']; ?> </h4>
+          </div>
+           <div class="tab-pane fade" id="nav-profile3" role="tabpanel" style="padding: 1rem;" aria-labelledby="nav-profile-tab1">
+                <h4 class="text-o" style="text-justify: distribute;color:black;"> <?php echo $lang['home']['c_19']; ?> </h4> </div>
+           <div class="tab-pane fade" id="nav-contact3" role="tabpanel" aria-labelledby="nav-contact-tab1">
+           <h4 class="text-o" style="text-justify: distribute;color:black;"> <?php echo $lang['home']['c_19']; ?> </h4> </div>
+     
+           </div>
+           <div class="tab-pane fade" id="nav-secteur3" role="tabpanel" aria-labelledby="nav-secteur-tab1">
+           <h4 class="text-o" style="text-justify: distribute;color:black;"> <?php echo $lang['home']['c_20']; ?> </h4> </div>
+     
+           </div>
+         <div class="col-md-6 from-right">
+         <img src="assets/img/6685.png" width="80%" alt=""> 
+         </div>
+        </div>
+     </div>
+
+
+
+           <!-- <div class="container-fluid desc1">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="container top" style="margin-left: 2.5rem;"><br><br>
@@ -321,15 +423,14 @@
                         <img src="assets/img/6685.png" width="80%" alt="">
                     </div>
                 </div>
-            </div>
+            </div>-->
     
             <!-- end cc -->
-           
-    
             <!-- service contact -->
+
             <div class="container-fluid  desc " align="center" style="padding: 4rem;background-color:rgba(238, 166, 32, 0.87)">
                 <div class="">
-                    <h1 class="text-light"><?php echo $lang['ask_1']; ?></h1>
+                   <marquee direction="right" behavior="alternate"><h1 class="text-light"><?php echo $lang['ask_1']; ?></h1></marquee> 
                     <br>
                     <a class="btn btn-lg" id="btn-modif" style="box-shadow:none;color:white;" href="contact.php"><?php echo $lang['ask_2']; ?></a>
                 </div>

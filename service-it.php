@@ -111,8 +111,8 @@ include_once "./config/config.php" ?>
 
       
       <!-- digit -->
-      <br/><br/>
-      <div class="container-fluid card"   style="color:orange;
+      
+               <!--<div class="container-fluid card"   style="color:orange;
           text-shadow: 3px 2px #000;size:100px;border-left-color: #FF8C00;">
     
             
@@ -123,16 +123,373 @@ include_once "./config/config.php" ?>
           </h1>
        
         
-       
+      </div>-->
 
-        
-      </div>
+      <CENTER>
+            <div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);text-decoration : underline;"><br/><br/>
+              <?php echo $lang['solutions']['it']['title']; ?>    
+            </div>
+      </CENTER>
+
+
       <!-- end digit -->
       
-      
+
       <!-- services -->
-     <div class="container-fluid  " >
+<section id="soft_dev_1" class="soft_dev section-bg "  >
+<div class="container-fluid  " > <br/><br/>
+
+    <div class="container">
+        
+        <div class="row content" id="">
+        <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
+
+<h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2><br/>
+      <p id="explains"><?php echo $lang['solutions']['it']['digit_trans']['subtitle']; ?></p> 
+      <p >
+         <ul id="explains">
+          <li><?php echo $lang['solutions']['it']['digit_trans']['content1']; ?></li>
+          <li><?php echo $lang['solutions']['it']['digit_trans']['content2']; ?></li>
+          </ul>
+      </p>   
+   
+</div>
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/ia-5.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ia-5.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+            </div>
+          
+
+        </div>
+    </div>
+</div>
+</section>
+<br/><br/>
+<section id="soft_dev_1" class="soft_dev section-bg">
+<div class="container-fluid  " style=" background: linear-gradient(180deg, #fff  100%,#f2f6fa  0%);" >
+
+    <div class="container">
+        
+        <div class="row content" id="">
+        
+            <div class="col-md-6 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/web.jpg" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/web.jpg" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/web.jpg" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+          </div>
+           
+          <div class="col-md-6 pt-7 aos-init" data-aos="fade-left"> 
+
+<h2 class="text-o"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2><br/><br/>
+    <p id="explains"><?php echo $lang['solutions']['it']['webmaster']['subtitle']; ?></p> 
+    <p >
+       <ul id="explains">
+        <li><?php echo $lang['solutions']['it']['webmaster']['content1']; ?></li>
+        <li><?php echo $lang['solutions']['it']['webmaster']['content2']; ?></li>
+        <li><?php echo $lang['solutions']['it']['webmaster']['content3']; ?></li>
+      </ul>
+    </p>   
+ 
+</div>
+
+        </div>
+    </div>
+</div>
+</section>
+<br/><br/><br/>
+
+
+
+
+
+
+
+
 <section id="soft_dev_1" class="soft_dev section-bg ">
+<div class="container-fluid  "  ><br/><br/>
+    <div class="container">
+        
+        <div class="row content" id="">
+        <div class="col-md-6 pt-7 aos-init" data-aos="fade-left"> <br>
+        <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s1']['title']; ?></h3>
+                      
+                 
+                    <p id="explains">
+                   <?php echo $lang['solutions']['it']['intelligence']['s1']['details']; ?>            </p>
+       
+                  </p>  
+        </div>
+            <div class="col-md-6 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/web1.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/web1.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/web1.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+          </div>
+           
+
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section id="soft_dev_1" class="soft_dev section-bg ">
+<div class="container-fluid  " style=" background: linear-gradient(180deg,#fff  0%, #f2f6fa 100%);" ><br/>
+
+    <div class="container">
+        
+        <div class="row content" id="">
+      
+            <div class="col-md-6 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/web1.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/web1.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/web1.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+          </div>
+           
+          <div class="col-md-6 pt-7 aos-init" data-aos="fade-left"> <br>
+        <h2 class="text-o"><?php echo $lang['solutions']['it']['saas']['title']; ?></h2>
+                <p id="explains"><?php echo $lang['solutions']['it']['saas']['subtitle']; ?></p>  
+                
+                  <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['saas']['content1']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['saas']['content2']; ?></li>
+                      <li><?php echo $lang['solutions']['it']['saas']['content3']; ?></li>
+                    </ul>
+                  </p>  
+</div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+<!--<section id="soft_dev_1" class="soft_dev section-bg ">
+<div class="container-fluid  " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);" ><br/><br/><br/><br/>
+
+    <div class="container">
+        
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/ia-5.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ia-5.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br><br/><br/>
+
+            <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s4']['title']; ?></h3>
+            <p id="explains">
+              <?php echo $lang['solutions']['it']['intelligence']['s4']['details']; ?>
+            </p>
+          </div>
+
+        </div>
+    </div>
+</div>
+</section>
+
+-->
+
+
+<CENTER>
+            <div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);text-decoration : underline;"><br/><br/><br/><br/>
+              <?php echo $lang['solutions']['it']['title1']; ?>    
+            </div>
+      </CENTER>
+
+
+
+<section id="soft_dev_1" class="soft_dev section-bg "  >
+<div class="container-fluid  " > <br/><br/>
+
     <div class="container">
         
         <div class="row content" id="">
@@ -180,7 +537,7 @@ include_once "./config/config.php" ?>
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
 
-            <h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2>
+            <h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2><br/>
                   <p id="explains"><?php echo $lang['solutions']['it']['digit_trans']['subtitle']; ?></p> 
                   <p >
                      <ul id="explains">
@@ -191,340 +548,31 @@ include_once "./config/config.php" ?>
                
             </div>
 
-        </div>
+        </div><br/><br/>
     </div>
-</section><br/><br/><br/><br/>
+</div>
+</section><br/>
 
-<section id="soft_dev_1" class="soft_dev section-bg ">
-    <div class="container">
+
+
+
+
+
+
+
+
         
-        <div class="row content" id="">
-            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
-                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                                <img src="assets/img/web.jpg" class="d-block w-100"height="300px"  alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/img/web.jpg" width="50%" class="d-block w-100" height="300px" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                        
-                            <img src="assets/img/web.jpg" class="d-block w-100" height="300px" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            
-            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
-          </div>
-            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
-
-              <h2 class="text-o"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2>
-                  <p id="explains"><?php echo $lang['solutions']['it']['webmaster']['subtitle']; ?></p> 
-                  <p >
-                     <ul id="explains">
-                      <li><?php echo $lang['solutions']['it']['webmaster']['content1']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['webmaster']['content2']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['webmaster']['content3']; ?></li>
-                    </ul>
-                  </p>   
-               
-            </div>
-
-        </div>
-    </div>
-</section>
-<br/>
-<br/>
-<br/>
-<br/>
-
-<section id="soft_dev_1" class="soft_dev section-bg ">
-    <div class="container">
         
-        <div class="row content" id="">
-            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
-                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                                <img src="assets/img/web.jpg" class="d-block w-100"height="300px"  alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/img/web.jpg" width="50%" class="d-block w-100" height="300px" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                        
-                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5></h5>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            
-            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
-          </div>
-            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br>
-
-            <h2 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['title']; ?></h2>
-                  <p id="explains"><?php echo $lang['solutions']['it']['intelligence']['details']; ?></p>                
-          
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--<div class="row">-->
-         <!-- <div class="col-md-7 from-left" align="center">
-              <img src="assets/img/cloud-4.png" width="50%"  alt="">
-          </div>
-          <div class="col-md-5 info">
-              <div class="lce-service-0" style="padding-left:5rem;padding-right:3rem;border-left:solid 1px;">
-                <h2 class="text-o"><?php echo $lang['solutions']['it']['services']['title']; ?></h2>
-                <p id="explains"><?php echo $lang['solutions']['it']['services']['details']; ?></p>                
-              </div>
-          </div>
-        </div>-->
-        <div class="row" style="padding: 3rem;">
-          <div class="col-md-6 info lce-design-card">
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s1']['title']; ?></h3>
-            <p id="explains">
-            <?php echo $lang['solutions']['it']['services']['s1']['details']; ?>
-            </p>
-          </div>
-          <div class="col-md-6 info info lce-design-card" id="et">
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s2']['title']; ?></h3>
-            <p id="explains">
-            <?php echo $lang['solutions']['it']['services']['s2']['details']; ?>
-            </p>
-          </div>
-        </div>
-        <div class="row" style="padding: 3rem;" >         
-          <div class="col-md-6 info lce-design-card" id="et">            
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s3']['title']; ?></h3>
-            <p id="explains">
-              <?php echo $lang['solutions']['it']['services']['s3']['details']; ?>            
-            </p>
-          </div>
-          <div class="col-md-6 info info lce-design-card" id="et">
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s4']['title']; ?></h3>
-            <p >
-              <ul id="explains">
-                <li><?php echo $lang['solutions']['it']['services']['s4']['p1']; ?></li>
-                <li><?php echo $lang['solutions']['it']['services']['s4']['p2']; ?></li>
-                <li><?php echo $lang['solutions']['it']['services']['s4']['p3']; ?></li>
-              </ul>
-            </p>
-          </div>
-        </div>
       </div>
       <!-- end services -->
 
-      <!-- banner contact style="margin-top:10rem;background:url(' img/3380180.jpg');background-position-y: 15px"-->
-      <div class="container-fluid " style="margin-top: 18rem;">
-          <!--<div class="container " style="padding: 5rem;">
-            <div class="row">
-              <div class="col-md-7 ">
-                <h4>Vous êtes intéressés par l'un de nos services? N'hésitez plus ! </h4>
-              </div>
-              <div class="col-md-5 ">
-                <button class="btn  btn-lg btn-warning" id="btn-modif" style="margin-top: 0.5rem;">Contactez-nous</button>
-              </div>
-            </div>
-          </div>-->
-      </div>
+      
       <!-- end of banner contact -->
-      <br>
-      <br>
-      <br>
-      <br>
+      
 
-      <!-- Intelligence artificielle -->
-      <div class="container-fluid ">
-        <!--<div class="row">
-          <div class="col-md-5  info">
-              <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
-                     </div>
-          </div>
-          <div class="col-md-7 from-right " align="center">
-            <img src="assets/img/ia-5.png" width="50%" alt="service2">
-          </div>
-        </div>-->
-        <div class="row" style="padding: 3rem;">
-          <div class="col-md-6 info lce-design-card" >
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s1']['title']; ?></h3>
-            <p id="explains">
-            <?php echo $lang['solutions']['it']['intelligence']['s1']['details']; ?>            </p>
-          </div>
-          <div class="col-md-6 info info lce-design-card" id="et">
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s2']['title']; ?></h3>
-            <p id="explains">              
-            <?php echo $lang['solutions']['it']['intelligence']['s2']['details']; ?>
-            </p>
-          </div>
-        </div>
-        <div class="row" style="padding: 3rem;" >         
-          <div class="col-md-6 info lce-design-card " id="et" >            
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s3']['title']; ?></h3>
-            <p id="explains">
-              <?php echo $lang['solutions']['it']['intelligence']['s3']['details']; ?>
-            </p>
-          </div>
-          <div class="col-md-6 info lce-design-card " id="et" >  <br/><br/>          
-            <h3 class="text-o"><?php echo $lang['solutions']['it']['intelligence']['s4']['title']; ?></h3>
-            <p id="explains">
-              <?php echo $lang['solutions']['it']['intelligence']['s4']['details']; ?>
-            </p>
-          </div>
-          <!--<div class="col-md-6 info info lce-design-card">
-            <h3>Solution pour call center</h3>
-            <p>
-              La Locomotive propose des solutions de centre d'appels pour mieux fidéliser vos clients.
-            </p>
-          </div>-->
-        </div>
-
-        
-
-      </div>
-
-      <div class="container-fluid " style="margin: 3rem;">
-      <!--<div class="row" style="padding: 3rem;">
-          <div class="col-md-5  info">
-              <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
-                  <h2 class="text-o"><?php echo $lang['solutions']['it']['webmaster']['title']; ?></h2>
-                  <p id="explains"><?php echo $lang['solutions']['it']['webmaster']['subtitle']; ?></p> 
-                  <p >
-                     <ul id="explains">
-                      <li><?php echo $lang['solutions']['it']['webmaster']['content1']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['webmaster']['content2']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['webmaster']['content3']; ?></li>
-                    </ul>
-                  </p>               
-              </div>
-          </div>
-          <div class="col-md-7 from-right " align="center">
-            <img src="assets/img/web.jpg" width="70%" alt="service2">
-          </div>
-        </div>-->
-
-        <div class="row" style="padding: 3rem;">
-          <div class="col-md-7 from-left" align="center">
-              <img src="assets/img/web1.png" width="60%"  alt="">
-          </div>
-          <div class="col-md-5 info">
-              <div class="lce-service-0" style="padding-left:5rem;padding-right:3rem;border-left:solid 1px;">
-                <h2 class="text-o"><?php echo $lang['solutions']['it']['saas']['title']; ?></h2>
-                <p id="explains"><?php echo $lang['solutions']['it']['saas']['subtitle']; ?></p>  
-                
-                <p >
-                     <ul id="explains">
-                      <li><?php echo $lang['solutions']['it']['saas']['content1']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['saas']['content2']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['saas']['content3']; ?></li>
-                    </ul>
-                  </p>  
-              </div>
-          </div>
-        </div>
-        <!--<div class="row" style="padding: 3rem;">
-          <div class="col-md-5  info">
-              <div class="lce-service-0" style="border-right: solid 1px;padding-right:2rem;padding-left:4rem">
-                  <h2 class="text-o"><?php echo $lang['solutions']['it']['digit_trans']['title']; ?></h2>
-                  <p id="explains"><?php echo $lang['solutions']['it']['digit_trans']['subtitle']; ?></p> 
-                  <p >
-                     <ul id="explains">
-                      <li><?php echo $lang['solutions']['it']['digit_trans']['content1']; ?></li>
-                      <li><?php echo $lang['solutions']['it']['digit_trans']['content2']; ?></li>
-                      </ul>
-                  </p>               
-              </div>
-          </div>
-          <div class="col-md-7 from-right " align="center">
-            <img src="assets/img/ia-5.png" width="50%" alt="service2">
-          </div>
-        </div>-->
-      </div>
-     
-      <!-- end of IA-->
-
-
-      <!-- banner carriere--> 
-     
-
-
-
-
-
-
-
-
-
-
-     
-    <br>
-    <br>
-    <br>
+      
+      
+    
     <br>
 
    
@@ -554,10 +602,8 @@ include_once "./config/config.php" ?>
     </div>
      end securite -->
 
-    <br>
-    <br>
-    <br>
-    <br>
+
+   
 
     <!-- Iot -->
    <!-- <div class="container-fluid top-9">
@@ -610,7 +656,7 @@ include_once "./config/config.php" ?>
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
     <!-- end Iot -->
     <br>
     <br>

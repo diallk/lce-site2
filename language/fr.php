@@ -6,27 +6,43 @@ $lang = array(
         "h1" => "Accueil",
         "h2" => "Solution",
         "h2_" => array(
-            "1" => "DIGITALE ET INNOVATION",
+            "1" => "DIGITAL ET INNOVATION",
             "1_" => array(
-                "1" => "Web master",
-                "2" => "transformation digitale",
-                "3" => "SaaS",
-                "4" => "Cloud computing",
-                "5" => "réseautage d'entreprise",
-                "6" => "Business intelligence",
-                "7" => "Cyber sécurité",
-                "8" => "IOT/IA",
-                "9" => "Réalité Virtuelle",
+                "1" => "Transformation Digitale",
+                "2" => "",
+                "3" => "Intégrateur de solutions",
+                "4" => "La simplification & la personnalisation du parcours client et/ou utilisateur",
+                "5" => "La protection & sécurisation desdonnées (RGPD) et le cryptage : un enjeu majeur des entreprises",
+                "6" => "La digitalisation & signature électronique de documents : une évolution incontournable",
+                "7" => "les approches agiles en entreprise",
+                "8" => "La traçabilité et la blockchain",
+                "9" => "Les applications métiers et systèmes BI (APP) basées sur les uses cases (UC)",
             ),
-            "2" =>  "PRODUIT ET SERVICES",
+            "2" =>  "PRODUITS ET SERVICES",
             "2_" => array(
-                "1" => "think",
-                "2" => "build",
-                "3" => "operate",
-                "4" => "support",
-                "5" => "develop"
+                "1" => "Services Techniques",
+                "2" => "Services Supports",
+                "3" => "Logistique (Mise en oeuvre et gestion de warehouses)",
+                "4" => "Gestion opérationnelle de réseaux télécoms et de transmission",
+                "5" => "Fournture de solution connectée clé en main",
+                "1" => "Fourniture de consommables",
+                "2" => "Fourniture de marchandises diverses",
+                "1" => "Drive test et optimization réseaux télécoms",
             ),
-            "3" => "FORMATION ET ASSIATANCE",
+            "3" => "FORMATION ET ASSISTANCE",
+            "3_" => array(
+                "1" => "Consultance en stratégie",
+                "2" => "Consultance en affaires",
+                "3" => "Consultance en Conception, Réalisation, Operation et Analyse réseaux Telecoms",
+                "4" => "Gestion opérationnelle de réseaux télécoms et de transmission",
+                "5" => "Audit & Conseil pour l’efficacité    opérationnelle",
+                "6" => "Formation à la demarche qualité",
+                "7" => "Conduite du changement",
+                "8" => "Developpement de l’activite de Partner Manager",
+                "9" => "Dévéloppement de compétence",
+                "10" => "Process Design & Optimisation",
+                "11" =>"Gestion de la documentation"
+            ),
             /*"4" => "BTP",
             "5" => "Formations",*/
         ),
@@ -81,7 +97,7 @@ $lang = array(
     ),
     "fr" => "Français",
     "en" => "Anglais",
-    "ask_1" => "Satisfaire vos besoins est notre priorité",
+    "ask_1" => "Nous Innovons, Vous Performez.",
     "ask_2" => "Contactez-nous",
     "pop" => "Nous Contactez",
     "pop1" => "Contact",
@@ -96,9 +112,11 @@ $lang = array(
             "b2" => "Fermer",
     ),
     "home" => array(
-        "f1" => "Entrez dans un monde , de",
+        "f1" => "Entrez dans un monde de",
         "f2" => " confiance",
-        "f3" => "Nous fournissons des services intégrés allant de la simple idée d’un client à sa matérialisation pour devenir une valeur ajoutée!",
+        "f3" => "Grace à une série de technologie de dernière génération,nous sommes capable d'aider nos clients 
+        à transformer rapidement leurs craintes en potentiel leur laissant la simplicité
+        et gardons la complexité à nous-mêmes.",
         "f6" => "En savoir plus",
         "f7" => "Contactez-nous",
         "floating" => "Nous Contacter",
@@ -107,23 +125,40 @@ $lang = array(
         "ct" => array(
             "s1" => array(
                 "title" => "DIGITAL ET INNOVATION",
-                "p" => "Web Master/IOT",
+                "p" => "L’automatisation, le Robotic Process Automation (RPA), l’IntelligenceArtificielle",
                 "p1" => "Transformation Digitale",
-                "p2" => "Cloud Computing/Saas",
-                "p3" => "Reseautage D'entreprise",
-                "p4" => "Cyber securité/IA",
-                
+                "p2" => "Intégrateur de solutions",
+                "p3" => "La simplification & la personnalisation du parcours client et/ou utilisateur",
+                "p4" => "La protection & sécurisation des données (RGPD) et le cryptage : un enjeu majeur des entreprises",
+                "p5" => "La digitalisation & signature électronique de documents : une évolution incontournable",
+                "p6" => "les approches agiles en entreprise",
+                "p7" => "La traçabilité et la blockchain",
+                "p8" => "Les applications métiers et systèmes BI (APP) basées sur les uses cases (UC)"
+               
             ), 
             "s2" => array(
                 "title" => "PRODUIT ET SERVICES",
-                "p" => "Think",
-                "p1" => "Build",
-                "p2" => "Operation",
-                "p3" => "Support",
+                "p" => "Services Techniques",
+                "p1" => "Services Supports",
+                "p2" => "Logistique (Mise en oeuvre et gestion de warehouses)",
+                "p3" => "Gestion opérationnelle de réseaux télécoms et de transmission",
+                "p4" => "Fournture de solution connectée clé en main",
+                "p5" => "Fourniture de consommables",
+                "p6" => "Fourniture de marchandises diverses",  
+                "p7" => "Drive test et optimization réseaux télécoms",
             ),
             "s3" => array(
-                "title" => "FORMATION ET ASSIATANCE",
-                "p" => "",
+                "title" => "FORMATION ET ASSISTANCE",
+                "p" => "Consultance en stratégie",
+                "p1" => "Consultance en affaires",
+                "p2" => "Consultance en Conception,Réalisation, Operation et Analyse réseaux Telecoms",
+                "p3" => "Audit & Conseil pour l’efficacité opérationnelle",
+                "p4" => "Formation à la demarche qualité",
+                "p5" => "Conduite du changement",
+                "p6" => "Developpement de l’activite de Partner Manager",
+                "p7" => "Dévéloppement de compétence",
+                "p8" => "Process Design & Optimisation",
+                "p9" =>"Gestion de la documentation"
             ),
            /* "s4" => array(
                 "title" => "Services Divers",
@@ -136,40 +171,58 @@ $lang = array(
         "client" => "Nos Clients",
         "client_fin" => "",
         "c_1" => "B2C",
-        "c_2" => "Le marketing B2C (Business to Consumer) correspond aux techniques marketing destinées au grand public et utilisées dans le cadre d'une activité commerciale entre une entreprise et les consommateurs.",
-        "c_3" => "",
+        "c_2" => "Marché de masse",
+        "c_16" => "c'est un marché caractérisé par un grand nombre de consommateurs pour un produit spécifique.",
+        "c_3" => "Entreprise à Consommateur",
+        "c_15" => "Le marketing B2C (Business to Consumer) correspond aux techniques marketing destinées au grand public et utilisées dans le cadre d'une activité commerciale entre une entreprise et les consommateurs.",
         "c_4" => "B2B",
-        "c_5" => "Le marketing B2B (Business to Business) correspond aux techniques marketing utilisées dans le cadre d'une activité commerciale entre deux entreprises.",
-        "c_6" => "",
-        "c_7" => "",
-        "c_8" => "",
+        "c_5" => "ISP",
+        "c_21" => "La communication B2B est la capacité de manager et d'articuler la relation,la mémoire et à stimuler la présence d'esprit, dans le fond et dans la forme. ",
+        "c_6" => "Carrier et les PME",
+        "c_7" => "Pour réussir le développement de son activité B2B, l’opérateur doit mettre en place de nouvelles offres et de nouveaux modèles propres aux besoins des entreprises avec des propositions de valeur segmentées  une organisation et une relation client dédiée pour une expérience client efficace et exemplaire 
+        des innovations technologiques avec le Très Haut Débit, la convergence, le M2M, Cloud… ;  une excellence opérationnelle mesurée et engagée à travers des niveaux d’engagement de service (SLA) et des plans qualité. ",
+        "c_8" => "Secteur tertiaire",
         "c_9" => "B2E",
         "c_10" => "Administration publique",
         "c_11" => "Ambassades",
-        "c_12" => " ONG",
+        "c_12" => "ONG",
         "c_13" => "Mutuelles",
-        "" => ""
+        "c_14" => "industrie",
+        "c_17" => "Il recouvre un vaste champ d'activités qui s'étend du commerce à l'administration, en passant par les transports, les activités financières et immobilières, les services aux entreprises et services aux particuliers, l'éducation, la santé et l'action sociale.",
+        "c_18" => "Les administrations publiques (APU) sont l'ensemble des organismes dont la fonction principale est la production de services non marchands, la redistribution des richesses nationales ou la régulation de l'économie.",
+        "c_19" => "Elle est représenté par un ambassadeur qui est le représentant personnel du président de la République, accrédité auprès du chef de l'État étranger.",
+        "c_20" => "",
+        "c_22" => " ",
+        "c_23" => "",
+        "c_24" => ""
+
     ),
     "solutions" => array(
         "it" => array( 
             "p0" => array(
                 "1" => "D & I",
                 "2" => "Digital Et Innovation",
-            ),            
-            "title" => "<center><h2>DIGITAL ET INNOVATION</h2></center><br/><br/>",
+                "3"=>" A & F",
+                "4"=>"Assistance Et Formation",
+            ),   
+            "title" => "<center><h2>INNOVATION </h2></center><br/><br/>",
+            "title1" => "<center><h2>DIGITAL</h2></center><br/><br/>",
+           
             "services" => array(
                 "p" => "SERVICES",
                 "details" => "La locomotive vous offres divers services dans les domaines nouveaux de la technologie comme le cloud et autres. De plus elle vous fait profiter de son expérience, avec du coaching !",
                 "s1" => array(
-                    "title" => "Cloud Computing",
+                    "title" => "Solution Cloud",
                     "details" => "Nouvelle vision IT du 21ème siècle, le Cloud Computing permet aux entreprises d’acheter des ressources informatiques sous la forme de service. Nous accompagnons nos partenaires à choisir le fournisseur cloud qu'il faut en fonction de leurs besoins."
                 ),
                 "s2" => array(
-                    "title" => "Enterprise networking",
+                    "title" => "Reseaux D'entreprise",
                     "details" => "La Locomotive fournit un service E2E de la conception à la maintenance en passant par la mise en œuvre et l'administration. Les données sont l'atout le plus précieux d'une entreprise. Par conséquent, les protéger devient une priorité. Nous offrons des technologies de dernière génération pour la sécurité de votre business."
                 ),
                 "s3" => array(
-                    "title" => "Business Coach",
+                    "title1"=>"<center><h2>ASSISTANCE</h2></center>",
+                    "title2"=>"<center><h2>FORMATION</h2></center>",
+                    "title" => "Application Metier",
                     "details" => "La Locomotive offre un accompagnement personnalisé qui vous aidera à mettre en œuvre vos projets de transformation. Notre service va du simple support en ligne à une assistance sur site et à la conduite du changement."
                 ),
                 "s4" => array(
@@ -296,18 +349,21 @@ $lang = array(
         ),
         "telecoms" =>  array(
             "p0" =>array(
-                "0" => "Solutions Télécom",
-                "1" => "Accueil - Solution - Télécom"
+                "0" => "P & S",
+                "1" => "Produits et Services"
             ),
+           
             "p1" =>  array(
                 "title" => "DESIGN & INGENERIE",
+                "title1" => "SERVICES",
+                "title2" => "PRODUITS",
                 "subtitle" => "Ingénierie de conception",
                 "content1" => "Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide. Une planification compétente, stratégique et minutieuse est nécessaire pour prendre les décisions qui amélioreront la fiabilité, l'efficacité et la pérénnité des services. Ainsi, notre équipe d'experts se charge d'élaborer des architectures innovantes, créatives et adaptées aux besoins pour la satisfaction de nos clients.",
                 "content2" => 'Pour tous travaux de <b>Design</b> Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
             ),
             "p2" => array(
                 "title" => "REALISATION",
-                "subtitle" => "Déploiement / Ajout / régression",
+                "subtitle" => "Déploiement / Evolution / régression",
                 "content1" => "L'arrivée de la 5G entraîne de nouvelles opportunités massives pour l'industrie des télécommunications. Les entreprises investissant massivement pour intensifier leurs maillages, elles doivent réfléchir soigneusement aux capacités dans lesquelles elles devraient investir pour réussir à long terme.",
                 "content2" => 'Nous vous supportons non seulement à concevoir votre avenir, mais nous le construisons également avec vous de manière tangible et pratique.'
             ),

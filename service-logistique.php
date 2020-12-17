@@ -1,4 +1,6 @@
-<?php include_once "./config/config.php" ?>
+<?php ini_set('display_errors', 1);
+
+include_once "./config/config.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +17,7 @@
 </head>
 <body onload="myFunction()" >
     <div class="preload">
-        <img class="locomotive" src="assets/img/LOCO.png" alt="locomotive">        
+        <!--<img class="locomotive" src="assets/img/LOCO.png" alt="locomotive">   -->     
         <div class="spinner-border" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -46,12 +48,10 @@
                             <?php echo $lang['header']['h2']; ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
+                              <a class="dropdown-item" href="service-it.php"><?php echo $lang['header']['h2_']['1']; ?></a>
                               <a class="dropdown-item" href="service-telecom.php"><?php echo $lang['header']['h2_']['2']; ?></a>
                               <a class="dropdown-item" href="service-logistique.php"><?php echo $lang['header']['h2_']['3']; ?></a>
-                              <a class="dropdown-item" href="service-btp.php"><?php echo $lang['header']['h2_']['4']; ?></a>
-                              <a class="dropdown-item" href="service-formation.php"><?php echo $lang['header']['h2_']['5']; ?></a>
-
+                             
                               
                           </li>
                         <li class="nav-item">
@@ -87,70 +87,191 @@
                         </div>
                   </nav>
             </div>
-        </div>
+        </div> 
+               
         <div class="row" align="center">
-            
-            
-            
-            <!--<div class="col-md-4 ">
-                <h1>A propos</h1>
-                <p style="margin-left: 1rem;">Accueil - A propos</p>
+            <div class="col-md-4 ">
+               
             </div>
-            <div class="col-md-8 ">
 
-            </div>-->
+            <div class="col-md-4" style="margin-top: 5rem;">
+                <div class="" align="center">
+                    <h1 style="font-size:75px"><?php echo $lang['solutions']['it']['p0']["3"]; ?></h1>
+                    <p ><?php echo $lang['solutions']['it']['p0']["4"]; ?></p>
+                </div>
+            </div>
+           
         </div>
     </div>
     <!-- end of banner -->
 
-      <br>
-      <br>
-      <br>
-      <br>  
+
+
+
+
+      
+      <!-- digit -->
+      
+               <!--<div class="container-fluid card"   style="color:orange;
+          text-shadow: 3px 2px #000;size:100px;border-left-color: #FF8C00;">
+    
+            
+            <h1><p id="explains">
+            <?php echo $lang['solutions']['it']['title']; ?>   
+
+          </p>
+          </h1>
+       
+        
+      </div>-->
+
+      <CENTER>
+            <div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);text-decoration : underline;"><br/><br/>
+              <?php echo $lang['solutions']['it']['services']['s3']['title1']; ?>    
+            </div>
+      </CENTER>
+
+
       
 
     <!-- conception -->
-    <div class="container-fluid ">
-      <div class="row">
-       
-           <img src="assets/img/site.jpg" width="70%" alt="service2">
-     
-          </div>
-          
-        </div>
-       <!-- <div class="col-md-6 info from-right" align="center">
-          <br><br>
-            <img src="assets/img/telecom-0.png" width="70%" alt="">
-        </div>-->
-   
+    <section id="soft_dev_1" class="soft_dev section-bg "  >
+<div class="container-fluid  " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);" > <br/><br/>
+
+    <div class="container">
+        
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/ia-5.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ia-5.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br><br>
+
+            <h2 class="text-o"><?php echo $lang['solutions']['telecoms']['p4']['title']; ?></h2><br/>
+                  <p id="explains"><?php echo $lang['solutions']['telecoms']['p4']['subtitle']; ?></p> 
+                  <p >
+                     <ul id="explains">
+                      <li><?php echo $lang['solutions']['it']['digit_trans']['content1']; ?></li>
+                      </ul>
+                  </p>   
+               
+            </div>
+
+        </div><br/><br/>
     </div>
+</div>
+</section><br/>
+<CENTER>
+            <div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);text-decoration : underline;"><br/><br/>
+              <?php echo $lang['solutions']['it']['services']['s3']['title2']; ?>    
+            </div>
+      </CENTER>
+
+
+<section id="soft_dev_1" class="soft_dev section-bg "  >
+<div class="container-fluid  " > <br/><br/>
+
+    <div class="container">
+        
+        <div class="row content" id="">
+            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+                <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptionsK" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="assets/img/ia-5.png" class="d-block w-100"height="300px"  alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ia-5.png" width="50%" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                        
+                            <img src="assets/img/ia-5.png" class="d-block w-100" height="300px" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5></h5>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptionsK" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptionsK" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            
+            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
+            </div>
+            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br><br>
+
+            <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s3']['title']; ?></h3><br/><br/>
+          
+              <?php echo $lang['solutions']['it']['services']['s3']['details']; ?>            
+            </p>
+               
+            </div>
+
+        </div><br/><br/>
+    </div>
+</div>
+</section><br/>
     <!-- end conception -->
 
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!-- realisation -->
-    <div class="container-fluid ">
-      <div class="row">
-        
-      </div>
-    </div>
-    <!-- end realisation -->
-
-    <br>
-    <br>
-    <br>
-    <br>  
     
+   
 
-    
-
-    <br>
-    <br>
-    <br>
-    <br>
 
     <!-- support -->
     <div class="container-fluid ">
@@ -161,20 +282,16 @@
     <!-- end support -->
     <div class="card-footer text-dark text-center">
     <h2><?php echo $lang['footer']['intro']; ?></h2><br/>
-    <div class="row ">
-                                    <div class="col-md-3 ">
-                                        <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
-                                    </div>
-                                    <div class="col-md-3 ">
-                                        <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
-                                    </div>
-                                    <div class="col-md-3 ">
-                                        <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-                                    </div>
-                                </div>
+  
+                                     
+                                    <a href="https://www.facebook.com/lalocomotivesarl/" target="_blank"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+                                    
+                                    <a href=""><img src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>                                    
+                                
+                                    <a href=""><img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
+                                
+                                    <a href="https://www.linkedin.com/company/la-locomotive-sarl-ci" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+                            
                     </div>
                   
       
