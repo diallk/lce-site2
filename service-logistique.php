@@ -136,7 +136,7 @@ include_once "./config/config.php" ?>
 
     <!-- conception -->
     <section id="soft_dev_1" class="soft_dev section-bg "  >
-<div class="container-fluid  " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);" > <br/><br/>
+<div class="container-fluid  "  > <br/><br/>
 
     <div class="container">
         
@@ -185,7 +185,7 @@ include_once "./config/config.php" ?>
             </div>
             <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br><br>
 
-            <h2 class="text-o"><?php echo $lang['solutions']['telecoms']['p4']['title']; ?></h2><br/>
+            <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p4']['title']; ?></h3><br/>
                   <p id="explains"><?php echo $lang['solutions']['telecoms']['p4']['subtitle']; ?></p> 
                   <p >
                      <ul id="explains">
@@ -212,7 +212,7 @@ include_once "./config/config.php" ?>
     <div class="container">
         
         <div class="row content" id="">
-            <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
+           <!-- <div class="col-md-5 aos-init" data-aos="fade-right"> <br> 
                 <div id="carouselExampleCaptionsK" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleCaptionsK" data-slide-to="0" class="active"></li>
@@ -252,16 +252,15 @@ include_once "./config/config.php" ?>
                     </a>
                 </div>
             
-            <!--<img src="assets/img/services/software_dev.jpg" alt="Image solution 3" class="img-fluid img-thumbnail">-->
-            </div>
-            <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br><br>
+             </div>-->
+           <!-- <div class="col-md-7 pt-7 aos-init" data-aos="fade-left"> <br><br>
 
             <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s3']['title']; ?></h3><br/><br/>
           
               <?php echo $lang['solutions']['it']['services']['s3']['details']; ?>            
             </p>
                
-            </div>
+            </div>-->
 
         </div><br/><br/>
     </div>

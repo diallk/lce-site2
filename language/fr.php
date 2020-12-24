@@ -137,7 +137,7 @@ $lang = array(
                
             ), 
             "s2" => array(
-                "title" => "PRODUIT ET SERVICES",
+                "title" => "PRODUITS ET SERVICES",
                 "p" => "Services Techniques",
                 "p1" => "Services Supports",
                 "p2" => "Logistique (Mise en oeuvre et gestion de warehouses)",
@@ -173,8 +173,8 @@ $lang = array(
         "c_1" => "B2C",
         "c_2" => "Marché de masse",
         "c_16" => "c'est un marché caractérisé par un grand nombre de consommateurs pour un produit spécifique.",
-        "c_3" => "Entreprise à Consommateur",
-        "c_15" => "Le marketing B2C (Business to Consumer) correspond aux techniques marketing destinées au grand public et utilisées dans le cadre d'une activité commerciale entre une entreprise et les consommateurs.",
+        "c_3" => "",
+        "c_15" => " ",
         "c_4" => "B2B",
         "c_5" => "ISP",
         "c_21" => "La communication B2B est la capacité de manager et d'articuler la relation,la mémoire et à stimuler la présence d'esprit, dans le fond et dans la forme. ",
@@ -206,7 +206,9 @@ $lang = array(
                 "4"=>"Assistance Et Formation",
             ),   
             "title" => "<center><h2>INNOVATION </h2></center><br/><br/>",
+            "details1"=>"Conception de platforme collaborative pour les écosystèmes ouvert.",
             "title1" => "<center><h2>DIGITAL</h2></center><br/><br/>",
+            "details2"=>"Il peu être qualifié comme la gestion d’une manière globale<br/> mais aussi structurée par des outils dans le cadre dans notre entreprise.",
            
             "services" => array(
                 "p" => "SERVICES",
@@ -236,7 +238,7 @@ $lang = array(
                 "title" => "INTELLIGENCE ARTIFICIELLE",
                 "details" => "La locomotive dispose des ressources nécessaires, en matière d'intelligence artificielle et de marchine learning, qui sont aujourd'hui, des technologies incontournables dans la digitalisation.",
                 "s1" => array(
-                    "title" => "Machine Learning",
+                    "title" => "MACHINE LEARNING",
                     "details" => "La Locomotive développe des solutions basées sur l'intelligence artificielle fondée sur des approches mathématiques et statistiques qui optimisent ainsi votre temps de travail et simplifient votre quotidien."
                 ),
                 "s2" => array(
@@ -357,9 +359,9 @@ $lang = array(
                 "title" => "DESIGN & INGENERIE",
                 "title1" => "SERVICES",
                 "title2" => "PRODUITS",
-                "subtitle" => "Ingénierie de conception",
+                "subtitle" => "Ingénierie de conception / Reseaux IT / Comception IT / Comception Solution Telecom",
                 "content1" => "Le paysage des données et des télécommunications continue d'évoluer à un rythme rapide. Une planification compétente, stratégique et minutieuse est nécessaire pour prendre les décisions qui amélioreront la fiabilité, l'efficacité et la pérénnité des services. Ainsi, notre équipe d'experts se charge d'élaborer des architectures innovantes, créatives et adaptées aux besoins pour la satisfaction de nos clients.",
-                "content2" => 'Pour tous travaux de <b>Design</b> Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
+                "content2" => 'Pour tous travaux de <br>Design</br> Réseaux, Contactez nous <a href="contacts.php">ici</a>.'
             ),
             "p2" => array(
                 "title" => "REALISATION",

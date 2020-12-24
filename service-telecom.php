@@ -111,7 +111,90 @@
         </div>
     </div>
     
-            <CENTER><div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);"style="box-shadow:
+
+    <!-- support -->
+    
+    </div>
+    <CENTER><div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);"style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;" ><br/><br/>
+            <h1 style="">
+              <?php echo $lang['solutions']['telecoms']['p1']['title2']; ?>
+            </h1>
+               
+
+            
+            </div></CENTER>
+            <br/><br/>
+    <!-- end support -->
+    <section id="soft_dev_1" class="soft_dev section-bg "  style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 
+;">
+
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-4  info from-left " align="center">
+            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
+        </div>
+        <div class="col-md-7  info" style="padding-right: 3rem;">
+           <div >
+          <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s1']['title']; ?></h3><br/><br/>
+             <div>
+              <h4>
+              <?php echo $lang['solutions']['it']['services']['s1']['details']; ?>
+              </h4>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+    <br/>
+
+
+    <!-- end support -->
+    <section id="soft_dev_1" class="soft_dev section-bg "  style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 
+;">
+
+    <div class="container-fluid ">
+      <div class="row">
+      
+        <div class="col-md-7  info" style="padding-right: 3rem;">
+           <div >
+           <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s3']['title']; ?></h3><br/><br/>
+                <div>
+              <h4>
+              <?php echo $lang['solutions']['it']['services']['s3']['details']; ?>            
+             </h4>
+            
+              
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4  info from-left " align="center">
+            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
+        </div>
+    </div>
+    
+    </section>
+    <br/>
+
+
+
+    
+
+    <CENTER><div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);"style="box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
   0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -128,7 +211,34 @@
 
       <br>
       
-      
+      <section id="soft_dev_1" class="soft_dev section-bg from-right " style="box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+
+;" >
+      <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-6  info" style="padding-left: 3rem;"><br/>
+          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p1']['title']; ?></h3><br/><br/> 
+          <div>
+              <h4>
+                <?php echo $lang['solutions']['telecoms']['p1']['subtitle']; ?>              
+              </h4>
+              <p>
+                <?php echo $lang['solutions']['telecoms']['p1']['content1']; ?>              
+              </p>
+              <p>
+                <?php echo $lang['solutions']['telecoms']['p1']['content2']; ?>              
+              </p>
+          </div>
+          
+        </div>
+        <div class="col-md-6 info from-right" align="center">
+          <br><br>
+            <img src="assets/img/telecom-0.png" width="60%" alt="">
+        </div>
+      </div>
+</section>
 
     <!-- conception -->
     <section id="soft_dev_1" class="soft_dev section-bg " >
@@ -160,64 +270,35 @@
     <!-- realisation -->
    
 
-      <section id="soft_dev_1" class="soft_dev section-bg from-right " style="box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-
-;" >
-      <div class="container-fluid ">
-      <div class="row">
-        <div class="col-md-6  info" style="padding-left: 3rem;"><br/>
-          <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p1']['title']; ?></h3><br/><br/> 
-          <div>
-              <h4>
-                <?php echo $lang['solutions']['telecoms']['p1']['subtitle']; ?>              
-              </h4>
-              <p>
-                <?php echo $lang['solutions']['telecoms']['p1']['content1']; ?>              
-              </p>
-              <p>
-                <?php echo $lang['solutions']['telecoms']['p1']['content2']; ?>              
-              </p>
-          </div>
-          
-        </div>
-        <div class="col-md-6 info from-right" align="center">
-          <br><br>
-            <img src="assets/img/telecom-0.png" width="60%" alt="">
+     <!-- operate -->
+    <section id="soft_dev_1" class="soft_dev section-bg " >
+    <div class="container-fluid ">
+    <div class="row">
+   
+      <div class="col-md-6  info" style="padding-left: 3rem;"><br/><br/><br/><br/><br/><br/>
+        <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p3']['title']; ?></h3><br/><br/>
+        <div>
+          <h4><?php echo $lang['solutions']['telecoms']['p3']['subtitle']; ?></h4>
+          <p>
+            <?php echo $lang['solutions']['telecoms']['p3']['content1']; ?>          
+          </p>
         </div>
       </div>
-</section>
-
-
-
-
-
-<section id="soft_dev_1" class="soft_dev section-bg "  style="box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
- 
-;">
-
-    <div class="container-fluid ">
-      <div class="row">
-        <div class="col-md-4  info from-left " align="center">
-            <img src="assets/img/telecom-2-1.png" width="50%" alt="">
-        </div>
-        <div class="col-md-7  info" style="padding-right: 3rem;">
-           <div >
-          <h3 class="text-o"><?php echo $lang['solutions']['it']['services']['s1']['title']; ?></h3><br/><br/>
-             <div>
-              <h4>
-              <?php echo $lang['solutions']['it']['services']['s1']['details']; ?>
-              </h4>
-              
-          </div>
-        </div>
+      <div class="col-md-6  info from-right " align="center">
+        <br><br>
+          <img src="assets/img/telecom-3.png" width="100%" alt="">
       </div>
     </div>
-    
+    </div>
     </section>
+    <!-- end operate -->
+ 
+
+
+
+
+
+
 <section id="soft_dev_1" class="soft_dev section-bg from-right "  >
       <div class="container-fluid ">
       
@@ -294,7 +375,7 @@
 
   
 
-<section id="soft_dev_1" class="soft_dev section-bg "  >
+<section id="soft_dev_1" class="soft_dev section-bg "  style=" background: linear-gradient(180deg,  #fff  0%,#f2f6fa 100%);" >
 
     <div class="container-fluid ">
       <div class="row">
@@ -321,49 +402,7 @@
      
     
 
-    <!-- operate -->
-    <section id="soft_dev_1" class="soft_dev section-bg " style=" background: linear-gradient(180deg,  #fff  0%,#f2f6fa 100%);" >
-    <div class="container-fluid ">
-    <div class="row">
-    <div class="col-md-6  info from-right " align="center">
-        <br><br>
-          <img src="assets/img/telecom-3.png" width="100%" alt="">
-      </div>
-      <div class="col-md-6  info" style="padding-left: 3rem;"><br/><br/><br/><br/><br/><br/>
-        <h3 class="text-o"><?php echo $lang['solutions']['telecoms']['p3']['title']; ?></h3><br/><br/>
-        <div>
-          <h4><?php echo $lang['solutions']['telecoms']['p3']['subtitle']; ?></h4>
-          <p>
-            <?php echo $lang['solutions']['telecoms']['p3']['content1']; ?>          
-          </p>
-        </div>
-      </div>
-     
-    </div>
-    </div>
-    </section>
-    <!-- end operate -->
-
-
-    <!-- support -->
     
-    </div>
-    <CENTER><div class="container-fluid " style=" background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);"style="box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;" ><br/><br/>
-            <h1 style="">
-              <?php echo $lang['solutions']['telecoms']['p1']['title2']; ?>
-            </h1>
-               
-            </div></CENTER>
-            <br/><br/><br/><br/><br/><br/>
-    <!-- end support -->
-
     <footer >
             <div class="card-footer text-dark text-center">
                    <h2><?php echo $lang['footer']['intro']; ?></h2><br/>

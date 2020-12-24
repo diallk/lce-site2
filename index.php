@@ -149,11 +149,11 @@
                               <div class="flip-box-back" style="padding: 1rem;text-align: left;"><br/>
                                   
                                 
-                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p']; ?></a></b><br/>
+                                <b><a href="service-it.php#intelligence"><?php echo $lang['home']['ct']['s1']['p']; ?></a></b><br/>
                                 
-                                <b><a href="#"><?php echo $lang['home']['ct']['s1']['p1']; ?></a></b><br/>
+                                <b><a href="service-it.php#digit_trans"><?php echo $lang['home']['ct']['s1']['p1']; ?></a></b><br/>
                                 
-                                <b><a href="#"> <?php echo $lang['home']['ct']['s1']['p2']; ?></a></b><br/>
+                                <b><a href="service-it.php#"> <?php echo $lang['home']['ct']['s1']['p2']; ?></a></b><br/>
                                 
                                 <b><a href="#"><?php echo $lang['home']['ct']['s1']['p3']; ?></a></b><br/>
                                
@@ -307,16 +307,16 @@ width: 600px;">
          <nav>
            <div class="nav nav-tabs" id="nav-tab" role="tablist">
              <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-selected="true"><?php echo $lang['home']['c_2']; ?></a>
-             <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false"><?php echo $lang['home']['c_3']; ?></a>
-       
+            <!-- <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile" aria-selected="false"><?php echo $lang['home']['c_3']; ?></a>
+       -->
            </div>
          </nav>
        <div class="tab-content" id="nav-tabContent">
            <div class="tab-pane fade show active" style="padding: 1rem;" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab1">
               <h4 class="text-o" style="color: black;"> <?php echo $lang['home']['c_16']; ?> </h4>
         </div>
-           <div class="tab-pane fade" id="nav-profile1" role="tabpanel" style="padding: 1rem;" aria-labelledby="nav-profile-tab1">
-                <h4 class="text-o" style="color:black;"> <?php echo $lang['home']['c_15']; ?></h4> </div>
+          <!-- <div class="tab-pane fade" id="nav-profile1" role="tabpanel" style="padding: 1rem;" aria-labelledby="nav-profile-tab1">
+                <h4 class="text-o" style="color:black;"> <?php echo $lang['home']['c_15']; ?></h4> </div>-->
              </div>  
          </div>
          <div class="col-md-6 from-right">
